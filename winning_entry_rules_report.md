@@ -1,12 +1,12 @@
 # Анализ входов: TP, убытки, безубыток
 
-Период: **336 ч** | Сгенерировано: 2026-06-22T13:36:04.641065+00:00
+Период: **336 ч** | Сгенерировано: 2026-06-22T13:38:08.129345+00:00
 
 ## Сводка исходов
-- **Профит:** 558
+- **Профит:** 559
 - **Убыток:** 466
 - **Безубыток / нейтраль:** 1573
-- TP (вирт + биржа): **558** (вирт 515, биржа 43)
+- TP (вирт + биржа): **559** (вирт 515, биржа 44)
 
 ## Рекомендации по весам и фильтрам
 - 🗑 Рассмотреть отказ `skip:макс. позиций` (high, n=225): Фильтр «макс. позиций» отсек 225 сигналов; 69% дошли бы до TP — возможно слишком жёстко.
@@ -33,16 +33,16 @@
 - **кулдаун после убытка**: n=28, вирт.TP=63% (+12/−7/≈9) — Фильтр «кулдаун после убытка» отсек 28 сигналов; 63% дошли бы до TP — возможно слишком жёстко.
 
 ## Индикаторы и soft-rules (WR при срабатывании)
-- `regime_chop` (soft_rule): WR **50%** (lift +12%), +2/−2/≈2
-- `adx_strong` (soft_rule): WR **40%** (lift +2%), +4/−6/≈3
-- `adx_ok` (soft_rule): WR **36%** (lift -2%), +5/−9/≈4
-- `atr_sweet` (soft_rule): WR **36%** (lift -2%), +5/−9/≈4
-- `volume_2x` (soft_rule): WR **36%** (lift -2%), +5/−9/≈4
-- `regime_trend` (soft_rule): WR **30%** (lift -8%), +3/−7/≈2
-- `spread_wide` (soft_rule): WR **20%** (lift -18%), +1/−4/≈0
-- `local_hour_low` (indicator): WR **0%** (lift -38%), +0/−4/≈2
-- `volume_24h_usdt_high` (indicator): WR **20%** (lift -18%), +1/−4/≈4
-- `local_hour_high` (indicator): WR **50%** (lift +12%), +5/−5/≈2
+- `regime_chop` (soft_rule): WR **50%** (lift +11%), +2/−2/≈2
+- `adx_strong` (soft_rule): WR **40%** (lift +1%), +4/−6/≈3
+- `adx_ok` (soft_rule): WR **36%** (lift -3%), +5/−9/≈4
+- `atr_sweet` (soft_rule): WR **36%** (lift -3%), +5/−9/≈4
+- `volume_2x` (soft_rule): WR **36%** (lift -3%), +5/−9/≈4
+- `regime_trend` (soft_rule): WR **30%** (lift -9%), +3/−7/≈2
+- `spread_wide` (soft_rule): WR **20%** (lift -19%), +1/−4/≈0
+- `local_hour_low` (indicator): WR **0%** (lift -39%), +0/−4/≈2
+- `volume_24h_usdt_high` (indicator): WR **20%** (lift -19%), +1/−4/≈4
+- `local_hour_high` (indicator): WR **50%** (lift +11%), +5/−5/≈2
 - `adx_low` (indicator): WR **29%** (lift -10%), +2/−5/≈2
 - `volume_24h_usdt_low` (indicator): WR **44%** (lift +6%), +4/−5/≈0
 
