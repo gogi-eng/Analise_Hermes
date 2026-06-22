@@ -1,0 +1,8 @@
+{
+  "updated_at": "bootstrap",
+  "source": "setup",
+  "host": "",
+  "fingerprint": "bootstrap",
+  "lookback_hours": 0,
+  "repo": "https://github.com/gogi-eng/Analise_Hermes.git"
+}
