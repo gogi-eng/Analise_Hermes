@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 604,
-  "tp_skipped_virtual": 553,
+  "tp_winners": 610,
+  "tp_skipped_virtual": 559,
   "tp_opened_real": 51,
-  "sl_losers": 418,
+  "sl_losers": 425,
   "outcome_counts": {
-    "profit": 604,
-    "loss": 496,
-    "neutral": 1706
+    "profit": 610,
+    "loss": 503,
+    "neutral": 1726
   },
   "rules": [
     {
@@ -120,19 +120,19 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.9238,
+    "confidence": 0.9235,
     "atr_pct": 0.5089,
     "adx": 31.5868,
     "rsi": 37.4061,
     "normalized_imbalance": -0.5344,
     "spread_pct": 0.0017,
-    "rr_at_entry": 2.2088,
+    "rr_at_entry": 2.2023,
     "soft_score": 100.0,
     "local_hour": 10.0,
     "volume_24h_usdt": 452277474.7
   },
   "top_skip_reasons_on_tp": {
-    "supervisor": 366,
+    "supervisor": 372,
     "макс. позиций": 61,
     "на бирже уже открыта позиция solusdt — н": 22,
     "на бирже уже открыта позиция btcusdt — н": 17,
@@ -631,11 +631,11 @@
     },
     {
       "skip_bucket": "supervisor",
-      "n_total": 1314,
-      "n_virtual_profit": 366,
-      "n_virtual_loss": 285,
-      "n_virtual_neutral": 663,
-      "virtual_tp_rate_pct": 56.2,
+      "n_total": 1345,
+      "n_virtual_profit": 372,
+      "n_virtual_loss": 292,
+      "n_virtual_neutral": 681,
+      "virtual_tp_rate_pct": 56.0,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
@@ -711,10 +711,10 @@
     },
     {
       "skip_bucket": "дневной лимит убытка 9.7% (лимит 5%). но",
-      "n_total": 24,
+      "n_total": 25,
       "n_virtual_profit": 0,
       "n_virtual_loss": 0,
-      "n_virtual_neutral": 24,
+      "n_virtual_neutral": 25,
       "virtual_tp_rate_pct": 0.0,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «дневной лимит убытка 9.7% (лимит 5%). но» — нужно больше данных."
@@ -781,5 +781,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-23T04:57:57.158061+00:00"
+  "generated_at": "2026-06-23T05:00:00.516379+00:00"
 }
