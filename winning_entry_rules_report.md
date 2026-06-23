@@ -1,12 +1,12 @@
 # Анализ входов: TP, убытки, безубыток
 
-Период: **336 ч** | Сгенерировано: 2026-06-23T08:25:26.867080+00:00
+Период: **336 ч** | Сгенерировано: 2026-06-23T08:27:30.445399+00:00
 
 ## Сводка исходов
-- **Профит:** 614
+- **Профит:** 615
 - **Убыток:** 505
 - **Безубыток / нейтраль:** 1741
-- TP (вирт + биржа): **614** (вирт 561, биржа 53)
+- TP (вирт + биржа): **615** (вирт 561, биржа 54)
 
 ## Рекомендации по весам и фильтрам
 - 🗑 Рассмотреть отказ `skip:макс. позиций` (high, n=225): Фильтр «макс. позиций» отсек 225 сигналов; 69% дошли бы до TP — возможно слишком жёстко.
@@ -33,18 +33,18 @@
 - **на бирже уже открыта позиция solusdt — н**: n=67, вирт.TP=85% (+22/−4/≈41) — Фильтр «на бирже уже открыта позиция solusdt — н» отсек 67 сигналов; 85% дошли бы до TP — возможно слишком жёстко.
 
 ## Индикаторы и soft-rules (WR при срабатывании)
-- `regime_chop` (soft_rule): WR **40%** (lift -0%), +2/−3/≈2
-- `adx_strong` (soft_rule): WR **40%** (lift -0%), +4/−6/≈3
-- `adx_ok` (soft_rule): WR **33%** (lift -7%), +5/−10/≈4
-- `atr_sweet` (soft_rule): WR **33%** (lift -7%), +5/−10/≈4
-- `volume_2x` (soft_rule): WR **33%** (lift -7%), +5/−10/≈4
-- `regime_trend` (soft_rule): WR **30%** (lift -10%), +3/−7/≈2
-- `spread_wide` (soft_rule): WR **20%** (lift -20%), +1/−4/≈0
-- `local_hour_low` (indicator): WR **0%** (lift -40%), +0/−4/≈2
-- `adx_low` (indicator): WR **14%** (lift -26%), +1/−6/≈2
-- `volume_24h_usdt_high` (indicator): WR **17%** (lift -24%), +1/−5/≈4
-- `rsi_high` (indicator): WR **29%** (lift -12%), +2/−5/≈3
+- `regime_chop` (soft_rule): WR **40%** (lift -1%), +2/−3/≈2
+- `adx_strong` (soft_rule): WR **40%** (lift -1%), +4/−6/≈3
+- `adx_ok` (soft_rule): WR **38%** (lift -3%), +6/−10/≈4
+- `atr_sweet` (soft_rule): WR **38%** (lift -3%), +6/−10/≈4
+- `volume_2x` (soft_rule): WR **38%** (lift -3%), +6/−10/≈4
+- `regime_trend` (soft_rule): WR **36%** (lift -4%), +4/−7/≈2
+- `spread_wide` (soft_rule): WR **20%** (lift -21%), +1/−4/≈0
+- `local_hour_low` (indicator): WR **0%** (lift -41%), +0/−4/≈2
+- `adx_low` (indicator): WR **25%** (lift -16%), +2/−6/≈2
 - `normalized_imbalance_high` (indicator): WR **29%** (lift -12%), +2/−5/≈3
+- `atr_pct_high` (indicator): WR **30%** (lift -11%), +3/−7/≈0
+- `spread_pct_high` (indicator): WR **30%** (lift -11%), +3/−7/≈0
 
 ## Пропущенные, но дошли бы до TP
 - **supervisor**: 374
@@ -58,40 +58,40 @@
 
 ## Медианы индикаторов у TP-победителей
 - `confidence`: **0.9235**
-- `atr_pct`: **0.5089**
-- `adx`: **31.5868**
-- `rsi`: **37.4061**
-- `normalized_imbalance`: **-0.5344**
-- `spread_pct`: **0.0017**
+- `atr_pct`: **0.4119**
+- `adx`: **29.8229**
+- `rsi`: **47.5307**
+- `normalized_imbalance`: **-0.6345**
+- `spread_pct`: **0.0015**
 - `rr_at_entry`: **2.2023**
-- `soft_score`: **100.0**
-- `local_hour`: **10.0**
-- `volume_24h_usdt`: **452277474.7**
+- `soft_score`: **90.0**
+- `local_hour`: **11.5**
+- `volume_24h_usdt`: **473500917.67**
 
 ## Правила удачного входа (TP)
 ### 1. `local_hour` >= `9`
-- У 100% удачных TP local_hour >= 9 (медиана 10, у SL 0%)
+- У 100% удачных TP local_hour >= 9 (медиана 11.5, у SL 0%)
 ### 2. `volatility` == `normal`
 - В 100% удачных TP volatility=normal (у SL 0%)
 ### 3. `entry_zone` == `no_zone`
 - В 100% удачных TP entry_zone=no_zone (у SL 0%)
 ### 4. `soft_label` == `favorable`
 - В 100% удачных TP soft_label=favorable (у SL 0%)
-### 5. `atr_pct` >= `0.288`
-- У 80% удачных TP atr_pct >= 0.288 (медиана 0.5089, у SL 0%)
-### 6. `adx` >= `23.6578`
-- У 80% удачных TP adx >= 23.6578 (медиана 31.59, у SL 0%)
-### 7. `rsi` >= `36.8219`
-- У 80% удачных TP rsi >= 36.8219 (медиана 37.41, у SL 0%)
-### 8. `normalized_imbalance` >= `-0.8191`
-- У 80% удачных TP normalized_imbalance >= -0.8191 (медиана -0.5344, у SL 0%)
-### 9. `spread_pct` >= `0.0008`
-- У 80% удачных TP spread_pct >= 0.0008 (медиана 0.00167, у SL 0%)
-### 10. `soft_score` >= `75.5`
-- У 80% удачных TP soft_score >= 75.5 (медиана 100, у SL 0%)
-### 11. `volume_24h_usdt` >= `131006108.335`
-- У 80% удачных TP volume_24h_usdt >= 131006108.335 (медиана 4.523e+08, у SL 0%)
-### 12. `htf_trend` == `-1`
-- В 80% удачных TP htf_trend=-1 (у SL 0%)
+### 5. `atr_pct` >= `0.2756`
+- У 83% удачных TP atr_pct >= 0.2756 (медиана 0.4119, у SL 0%)
+### 6. `adx` >= `20.449`
+- У 83% удачных TP adx >= 20.449 (медиана 29.82, у SL 0%)
+### 7. `rsi` >= `36.9746`
+- У 83% удачных TP rsi >= 36.9746 (медиана 47.53, у SL 0%)
+### 8. `normalized_imbalance` >= `-0.9275`
+- У 83% удачных TP normalized_imbalance >= -0.9275 (медиана -0.6345, у SL 0%)
+### 9. `soft_score` >= `77.25`
+- У 83% удачных TP soft_score >= 77.25 (медиана 90, у SL 0%)
+### 10. `volume_24h_usdt` >= `165469695.5925`
+- У 83% удачных TP volume_24h_usdt >= 165469695.5925 (медиана 4.735e+08, у SL 0%)
+### 11. `htf_trend` == `-1`
+- В 83% удачных TP htf_trend=-1 (у SL 0%)
+### 12. `spread_pct` >= `0.0002`
+- У 67% удачных TP spread_pct >= 0.0002 (медиана 0.00154, у SL 0%)
 
 > Hermes: **не меняйте config автоматически**. Одно изменение за цикл (ZeroOne).
