@@ -54,6 +54,8 @@ api_cache:
   max_parallel_requests: 6
   price_ttl_sec: 8
   tickers_ttl_sec: 30
+approvals_mode: smart
+
 bot:
   signal_cooldown_sec: 5400
   signal_only: false
