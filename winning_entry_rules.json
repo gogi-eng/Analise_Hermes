@@ -3,11 +3,11 @@
   "tp_winners": 659,
   "tp_skipped_virtual": 600,
   "tp_opened_real": 59,
-  "sl_losers": 441,
+  "sl_losers": 466,
   "outcome_counts": {
     "profit": 659,
-    "loss": 524,
-    "neutral": 1834
+    "loss": 549,
+    "neutral": 1849
   },
   "rules": [
     {
@@ -631,11 +631,11 @@
     },
     {
       "skip_bucket": "supervisor",
-      "n_total": 1409,
+      "n_total": 1424,
       "n_virtual_profit": 378,
-      "n_virtual_loss": 306,
+      "n_virtual_loss": 321,
       "n_virtual_neutral": 725,
-      "virtual_tp_rate_pct": 55.3,
+      "virtual_tp_rate_pct": 54.1,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
@@ -730,6 +730,16 @@
       "reason_ru": "Смешанный эффект фильтра «дневной лимит убытка 9.7% (лимит 5%). но» — нужно больше данных."
     },
     {
+      "skip_bucket": "дневной лимит убытка 19.2% (лимит 5%). н",
+      "n_total": 25,
+      "n_virtual_profit": 0,
+      "n_virtual_loss": 10,
+      "n_virtual_neutral": 15,
+      "virtual_tp_rate_pct": 0.0,
+      "recommendation": "keep_strict",
+      "reason_ru": "Фильтр «дневной лимит убытка 19.2% (лимит 5%). н» спасает от SL в 100% случаев — оставить."
+    },
+    {
       "skip_bucket": "дневной лимит убытка 10.4% (лимит 5%). н",
       "n_total": 23,
       "n_virtual_profit": 0,
@@ -791,5 +801,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-23T20:49:55.541920+00:00"
+  "generated_at": "2026-06-23T20:51:59.288487+00:00"
 }
