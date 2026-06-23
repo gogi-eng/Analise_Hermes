@@ -7,7 +7,7 @@
   "outcome_counts": {
     "profit": 603,
     "loss": 493,
-    "neutral": 1701
+    "neutral": 1702
   },
   "rules": [
     {
@@ -378,9 +378,9 @@
       "filter_kind": "indicator",
       "n_profit": 50,
       "n_loss": 75,
-      "n_neutral": 192,
+      "n_neutral": 193,
       "win_rate_pct": 40.0,
-      "avg_pnl_pct": 0.1957,
+      "avg_pnl_pct": 0.195,
       "baseline_win_rate_pct": 40.0,
       "lift_pct": 0.0
     },
@@ -781,5 +781,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-23T02:10:30.920195+00:00"
+  "generated_at": "2026-06-23T02:16:34.310032+00:00"
 }
