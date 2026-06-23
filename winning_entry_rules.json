@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 600,
-  "tp_skipped_virtual": 550,
+  "tp_winners": 603,
+  "tp_skipped_virtual": 553,
   "tp_opened_real": 50,
-  "sl_losers": 402,
+  "sl_losers": 418,
   "outcome_counts": {
-    "profit": 600,
-    "loss": 475,
-    "neutral": 1677
+    "profit": 603,
+    "loss": 491,
+    "neutral": 1699
   },
   "rules": [
     {
@@ -120,13 +120,13 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.9238,
+    "confidence": 0.9241,
     "atr_pct": 0.5089,
     "adx": 31.5868,
     "rsi": 37.4061,
     "normalized_imbalance": -0.5344,
     "spread_pct": 0.0017,
-    "rr_at_entry": 2.2092,
+    "rr_at_entry": 2.2088,
     "soft_score": 100.0,
     "local_hour": 10.0,
     "volume_24h_usdt": 452277474.7
@@ -418,8 +418,8 @@
       "action": "consider_remove",
       "suggested_weight_mult": 0.0,
       "confidence": "high",
-      "reason_ru": "Фильтр «на бирже уже открыта позиция solusdt — н» отсек 66 сигналов; 85% дошли бы до TP — возможно слишком жёстко.",
-      "n_samples": 66
+      "reason_ru": "Фильтр «на бирже уже открыта позиция solusdt — н» отсек 67 сигналов; 85% дошли бы до TP — возможно слишком жёстко.",
+      "n_samples": 67
     },
     {
       "filter_id": "skip:дневной лимит убытка 25.5% (лимит 5%). н",
@@ -591,13 +591,13 @@
     },
     {
       "skip_bucket": "на бирже уже открыта позиция solusdt — н",
-      "n_total": 66,
+      "n_total": 67,
       "n_virtual_profit": 22,
       "n_virtual_loss": 4,
-      "n_virtual_neutral": 40,
+      "n_virtual_neutral": 41,
       "virtual_tp_rate_pct": 84.6,
       "recommendation": "consider_relax",
-      "reason_ru": "Фильтр «на бирже уже открыта позиция solusdt — н» отсек 66 сигналов; 85% дошли бы до TP — возможно слишком жёстко."
+      "reason_ru": "Фильтр «на бирже уже открыта позиция solusdt — н» отсек 67 сигналов; 85% дошли бы до TP — возможно слишком жёстко."
     },
     {
       "skip_bucket": "макс. позиций",
@@ -631,11 +631,11 @@
     },
     {
       "skip_bucket": "supervisor",
-      "n_total": 1290,
+      "n_total": 1314,
       "n_virtual_profit": 366,
-      "n_virtual_loss": 274,
-      "n_virtual_neutral": 650,
-      "virtual_tp_rate_pct": 57.2,
+      "n_virtual_loss": 285,
+      "n_virtual_neutral": 663,
+      "virtual_tp_rate_pct": 56.2,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
@@ -678,6 +678,16 @@
       "virtual_tp_rate_pct": 18.2,
       "recommendation": "keep_strict",
       "reason_ru": "Фильтр «дневной лимит убытка 7.9% (лимит 5%). но» спасает от SL в 82% случаев — оставить."
+    },
+    {
+      "skip_bucket": "на бирже уже открыта позиция dexeusdt — ",
+      "n_total": 13,
+      "n_virtual_profit": 1,
+      "n_virtual_loss": 5,
+      "n_virtual_neutral": 7,
+      "virtual_tp_rate_pct": 16.7,
+      "recommendation": "keep_strict",
+      "reason_ru": "Фильтр «на бирже уже открыта позиция dexeusdt — » спасает от SL в 83% случаев — оставить."
     },
     {
       "skip_bucket": "дневной лимит убытка $39.92 (лимит $15).",
@@ -771,5 +781,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-23T01:19:45.970397+00:00"
+  "generated_at": "2026-06-23T01:29:49.344355+00:00"
 }
