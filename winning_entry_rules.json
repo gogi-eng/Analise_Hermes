@@ -7,7 +7,7 @@
   "outcome_counts": {
     "profit": 649,
     "loss": 520,
-    "neutral": 1786
+    "neutral": 1787
   },
   "rules": [
     {
@@ -781,5 +781,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-23T13:21:57.562307+00:00"
+  "generated_at": "2026-06-23T13:24:01.045924+00:00"
 }
