@@ -1,12 +1,12 @@
 # Анализ входов: TP, убытки, безубыток
 
-Период: **336 ч** | Сгенерировано: 2026-06-24T16:50:05.220943+00:00
+Период: **336 ч** | Сгенерировано: 2026-06-24T16:52:09.275367+00:00
 
 ## Сводка исходов
-- **Профит:** 696
+- **Профит:** 698
 - **Убыток:** 597
 - **Безубыток / нейтраль:** 1989
-- TP (вирт + биржа): **696** (вирт 627, биржа 69)
+- TP (вирт + биржа): **698** (вирт 627, биржа 71)
 
 ## Рекомендации по весам и фильтрам
 - 🗑 Рассмотреть отказ `skip:макс. позиций` (high, n=225): Фильтр «макс. позиций» отсек 225 сигналов; 69% дошли бы до TP — возможно слишком жёстко.
@@ -33,18 +33,18 @@
 - **entry_guard**: n=18, вирт.TP=91% (+10/−1/≈7) — Фильтр «entry_guard» отсек 18 сигналов; 91% дошли бы до TP — возможно слишком жёстко.
 
 ## Индикаторы и soft-rules (WR при срабатывании)
-- `regime_chop` (soft_rule): WR **40%** (lift -2%), +2/−3/≈2
-- `adx_strong` (soft_rule): WR **40%** (lift -2%), +4/−6/≈3
-- `adx_ok` (soft_rule): WR **38%** (lift -5%), +6/−10/≈4
-- `atr_sweet` (soft_rule): WR **38%** (lift -5%), +6/−10/≈4
-- `volume_2x` (soft_rule): WR **38%** (lift -5%), +6/−10/≈4
-- `regime_trend` (soft_rule): WR **36%** (lift -6%), +4/−7/≈2
-- `spread_wide` (soft_rule): WR **20%** (lift -22%), +1/−4/≈0
-- `local_hour_low` (indicator): WR **0%** (lift -42%), +0/−4/≈2
-- `adx_low` (indicator): WR **25%** (lift -17%), +2/−6/≈2
+- `regime_chop` (soft_rule): WR **40%** (lift -3%), +2/−3/≈2
+- `adx_strong` (soft_rule): WR **40%** (lift -3%), +4/−6/≈3
+- `adx_ok` (soft_rule): WR **38%** (lift -6%), +6/−10/≈4
+- `atr_sweet` (soft_rule): WR **38%** (lift -6%), +6/−10/≈4
+- `volume_2x` (soft_rule): WR **38%** (lift -6%), +6/−10/≈4
+- `regime_trend` (soft_rule): WR **36%** (lift -7%), +4/−7/≈2
+- `spread_wide` (soft_rule): WR **20%** (lift -23%), +1/−4/≈0
+- `local_hour_low` (indicator): WR **0%** (lift -43%), +0/−4/≈2
+- `adx_low` (indicator): WR **25%** (lift -18%), +2/−6/≈2
 - `normalized_imbalance_high` (indicator): WR **29%** (lift -14%), +2/−5/≈3
-- `atr_pct_high` (indicator): WR **30%** (lift -12%), +3/−7/≈0
-- `spread_pct_high` (indicator): WR **30%** (lift -12%), +3/−7/≈0
+- `atr_pct_high` (indicator): WR **30%** (lift -13%), +3/−7/≈0
+- `spread_pct_high` (indicator): WR **30%** (lift -13%), +3/−7/≈0
 
 ## Пропущенные, но дошли бы до TP
 - **supervisor**: 381
@@ -57,7 +57,7 @@
 - **entry_guard**: 10
 
 ## Медианы индикаторов у TP-победителей
-- `confidence`: **0.9244**
+- `confidence`: **0.9243**
 - `atr_pct`: **0.4119**
 - `adx`: **29.8229**
 - `rsi`: **47.5307**
