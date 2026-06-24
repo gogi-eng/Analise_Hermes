@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 705,
-  "tp_skipped_virtual": 627,
+  "tp_winners": 708,
+  "tp_skipped_virtual": 630,
   "tp_opened_real": 78,
   "sl_losers": 503,
   "outcome_counts": {
-    "profit": 705,
+    "profit": 708,
     "loss": 599,
-    "neutral": 1999
+    "neutral": 2036
   },
   "rules": [
     {
@@ -120,19 +120,19 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.9235,
+    "confidence": 0.9238,
     "atr_pct": 0.4119,
     "adx": 29.8229,
     "rsi": 47.5307,
     "normalized_imbalance": -0.6345,
     "spread_pct": 0.0015,
-    "rr_at_entry": 2.293,
+    "rr_at_entry": 2.2844,
     "soft_score": 90.0,
     "local_hour": 11.5,
     "volume_24h_usdt": 473500917.67
   },
   "top_skip_reasons_on_tp": {
-    "supervisor": 381,
+    "supervisor": 384,
     "макс. позиций": 61,
     "на бирже уже открыта позиция btcusdt — н": 36,
     "на бирже уже открыта позиция solusdt — н": 32,
@@ -661,11 +661,11 @@
     },
     {
       "skip_bucket": "supervisor",
-      "n_total": 1487,
-      "n_virtual_profit": 381,
+      "n_total": 1527,
+      "n_virtual_profit": 384,
       "n_virtual_loss": 336,
-      "n_virtual_neutral": 770,
-      "virtual_tp_rate_pct": 53.1,
+      "n_virtual_neutral": 807,
+      "virtual_tp_rate_pct": 53.3,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
@@ -861,5 +861,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-24T22:20:10.208980+00:00"
+  "generated_at": "2026-06-24T22:22:14.110745+00:00"
 }
