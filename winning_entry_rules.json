@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 710,
-  "tp_skipped_virtual": 630,
+  "tp_winners": 716,
+  "tp_skipped_virtual": 636,
   "tp_opened_real": 80,
-  "sl_losers": 503,
+  "sl_losers": 511,
   "outcome_counts": {
-    "profit": 710,
-    "loss": 599,
-    "neutral": 2037
+    "profit": 716,
+    "loss": 607,
+    "neutral": 2063
   },
   "rules": [
     {
@@ -120,19 +120,19 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.9236,
+    "confidence": 0.9243,
     "atr_pct": 0.4119,
     "adx": 29.8229,
     "rsi": 47.5307,
     "normalized_imbalance": -0.6345,
     "spread_pct": 0.0015,
-    "rr_at_entry": 2.2844,
+    "rr_at_entry": 2.2763,
     "soft_score": 90.0,
     "local_hour": 11.5,
     "volume_24h_usdt": 473500917.67
   },
   "top_skip_reasons_on_tp": {
-    "supervisor": 384,
+    "supervisor": 390,
     "макс. позиций": 61,
     "на бирже уже открыта позиция btcusdt — н": 36,
     "на бирже уже открыта позиция solusdt — н": 32,
@@ -474,8 +474,8 @@
       "action": "consider_remove",
       "suggested_weight_mult": 0.0,
       "confidence": "medium",
-      "reason_ru": "Фильтр «impulse_retest» отсек 16 сигналов; 60% дошли бы до TP — возможно слишком жёстко.",
-      "n_samples": 16
+      "reason_ru": "Фильтр «impulse_retest» отсек 17 сигналов; 60% дошли бы до TP — возможно слишком жёстко.",
+      "n_samples": 17
     },
     {
       "filter_id": "skip:дневной лимит убытка 36.0% (лимит 5%). н",
@@ -651,21 +651,21 @@
     },
     {
       "skip_bucket": "impulse_retest",
-      "n_total": 16,
+      "n_total": 17,
       "n_virtual_profit": 6,
       "n_virtual_loss": 4,
-      "n_virtual_neutral": 6,
+      "n_virtual_neutral": 7,
       "virtual_tp_rate_pct": 60.0,
       "recommendation": "consider_relax",
-      "reason_ru": "Фильтр «impulse_retest» отсек 16 сигналов; 60% дошли бы до TP — возможно слишком жёстко."
+      "reason_ru": "Фильтр «impulse_retest» отсек 17 сигналов; 60% дошли бы до TP — возможно слишком жёстко."
     },
     {
       "skip_bucket": "supervisor",
-      "n_total": 1527,
-      "n_virtual_profit": 384,
-      "n_virtual_loss": 336,
-      "n_virtual_neutral": 807,
-      "virtual_tp_rate_pct": 53.3,
+      "n_total": 1565,
+      "n_virtual_profit": 390,
+      "n_virtual_loss": 343,
+      "n_virtual_neutral": 832,
+      "virtual_tp_rate_pct": 53.2,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
@@ -851,15 +851,15 @@
     },
     {
       "skip_bucket": "order does not meet minimum order value ",
-      "n_total": 6,
+      "n_total": 7,
       "n_virtual_profit": 0,
-      "n_virtual_loss": 1,
+      "n_virtual_loss": 2,
       "n_virtual_neutral": 5,
       "virtual_tp_rate_pct": 0.0,
-      "recommendation": "review",
-      "reason_ru": "Смешанный эффект фильтра «order does not meet minimum order value » — нужно больше данных."
+      "recommendation": "keep_strict",
+      "reason_ru": "Фильтр «order does not meet minimum order value » спасает от SL в 100% случаев — оставить."
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-25T01:35:20.412310+00:00"
+  "generated_at": "2026-06-25T01:53:24.206400+00:00"
 }
