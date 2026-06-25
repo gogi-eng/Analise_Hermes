@@ -3,11 +3,11 @@
   "tp_winners": 752,
   "tp_skipped_virtual": 661,
   "tp_opened_real": 91,
-  "sl_losers": 539,
+  "sl_losers": 550,
   "outcome_counts": {
     "profit": 752,
-    "loss": 646,
-    "neutral": 2192
+    "loss": 657,
+    "neutral": 2221
   },
   "rules": [
     {
@@ -660,16 +660,6 @@
       "reason_ru": "Фильтр «impulse_retest» отсек 17 сигналов; 60% дошли бы до TP — возможно слишком жёстко."
     },
     {
-      "skip_bucket": "supervisor",
-      "n_total": 1648,
-      "n_virtual_profit": 411,
-      "n_virtual_loss": 364,
-      "n_virtual_neutral": 873,
-      "virtual_tp_rate_pct": 53.0,
-      "recommendation": "review",
-      "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
-    },
-    {
       "skip_bucket": "на бирже уже открыта позиция btcusdt — н",
       "n_total": 349,
       "n_virtual_profit": 36,
@@ -678,6 +668,16 @@
       "virtual_tp_rate_pct": 52.9,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «на бирже уже открыта позиция btcusdt — н» — нужно больше данных."
+    },
+    {
+      "skip_bucket": "supervisor",
+      "n_total": 1670,
+      "n_virtual_profit": 411,
+      "n_virtual_loss": 372,
+      "n_virtual_neutral": 887,
+      "virtual_tp_rate_pct": 52.5,
+      "recommendation": "review",
+      "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
     {
       "skip_bucket": "дневной лимит убытка $40.47 (лимит $15).",
@@ -870,6 +870,26 @@
       "reason_ru": "Фильтр «дневной лимит убытка 10.0% (лимит 5%). н» спасает от SL в 100% случаев — оставить."
     },
     {
+      "skip_bucket": "дневной лимит убытка 14.9% (лимит 5%). н",
+      "n_total": 9,
+      "n_virtual_profit": 0,
+      "n_virtual_loss": 3,
+      "n_virtual_neutral": 6,
+      "virtual_tp_rate_pct": 0.0,
+      "recommendation": "keep_strict",
+      "reason_ru": "Фильтр «дневной лимит убытка 14.9% (лимит 5%). н» спасает от SL в 100% случаев — оставить."
+    },
+    {
+      "skip_bucket": "дневной лимит убытка 14.1% (лимит 5%). н",
+      "n_total": 9,
+      "n_virtual_profit": 0,
+      "n_virtual_loss": 0,
+      "n_virtual_neutral": 9,
+      "virtual_tp_rate_pct": 0.0,
+      "recommendation": "review",
+      "reason_ru": "Смешанный эффект фильтра «дневной лимит убытка 14.1% (лимит 5%). н» — нужно больше данных."
+    },
+    {
       "skip_bucket": "дневной лимит убытка 22.8% (лимит 5%). н",
       "n_total": 8,
       "n_virtual_profit": 0,
@@ -891,5 +911,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-25T20:37:26.985328+00:00"
+  "generated_at": "2026-06-25T20:39:30.872471+00:00"
 }
