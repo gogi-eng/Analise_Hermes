@@ -1,7 +1,7 @@
 ---
 hermes_feed: true
-generated_at: 2026-06-25T13:42:21.600757+00:00
-fingerprint: e9c9249c69614cc1
+generated_at: 2026-06-25T13:44:25.532972+00:00
+fingerprint: 3b286f1ea68f3602
 source: AGENT-WORLD
 lookback_hours: 336.0
 host: snapshots-s-2vcpu-4gb-120gb-intel-fra1
@@ -13,17 +13,17 @@ host: snapshots-s-2vcpu-4gb-120gb-intel-fra1
 > Рекомендации — только предложения. ZeroOne: **максимум одна** правка config за раз.
 > Не меняй `config.yaml` и не ставь ордера без явной просьбы пользователя.
 
-**Обновлено:** 2026-06-25T13:42:21.600757+00:00 | окно **336 ч** | id `e9c9249c69614cc1`
+**Обновлено:** 2026-06-25T13:44:25.532972+00:00 | окно **336 ч** | id `3b286f1ea68f3602`
 
 ## Сводка исходов
 
 | Исход | Кол-во |
 |-------|--------|
-| Профит | 738 |
+| Профит | 740 |
 | Убыток | 628 |
 | Безубыток | 2168 |
 
-TP всего: **738** (вирт 654, биржа 84) | SL/убытки: **526**
+TP всего: **740** (вирт 654, биржа 86) | SL/убытки: **526**
 
 ## ⚡ Одна гипотеза (ZeroOne) — приоритет для агента
 
@@ -55,11 +55,11 @@ TP всего: **738** (вирт 654, биржа 84) | SL/убытки: **526**
 
 ## Топ правила удачного входа (TP)
 
-1. `local_hour` >= `9` — У 100% удачных TP local_hour >= 9 (медиана 11.5, у SL 0%)
-2. `volatility` == `normal` — В 100% удачных TP volatility=normal (у SL 0%)
-3. `entry_zone` == `no_zone` — В 100% удачных TP entry_zone=no_zone (у SL 0%)
-4. `soft_label` == `favorable` — В 100% удачных TP soft_label=favorable (у SL 0%)
-5. `atr_pct` >= `0.2756` — У 83% удачных TP atr_pct >= 0.2756 (медиана 0.4119, у SL 0%)
+1. `volatility` == `normal` — В 100% удачных TP volatility=normal (у SL 0%)
+2. `entry_zone` == `no_zone` — В 100% удачных TP entry_zone=no_zone (у SL 0%)
+3. `soft_label` == `favorable` — В 100% удачных TP soft_label=favorable (у SL 0%)
+4. `atr_pct` >= `0.2804` — У 86% удачных TP atr_pct >= 0.2804 (медиана 0.5089, у SL 0%)
+5. `adx` >= `19.2565` — У 86% удачных TP adx >= 19.2565 (медиана 28.06, у SL 0%)
 
 ## Пропущено, но дошло бы до TP
 
