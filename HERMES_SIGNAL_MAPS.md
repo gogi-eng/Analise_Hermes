@@ -1,6 +1,6 @@
 ---
 hermes_feed: true
-generated_at: 2026-06-25T20:59:19.964217+00:00
+generated_at: 2026-06-25T23:59:21.446834+00:00
 source: PRD-BOT-ALL
 lookback_hours: 72.0
 ---
@@ -10,19 +10,19 @@ lookback_hours: 72.0
 > **Для Hermes / Cursor:** полные карты — `hermes_signal_maps.jsonl` (одна строка = один сигнал).
 > Бот пишет **все** сигналы в `signal_ledger`; виртуальный исход — для пропущенных; реальный PnL — для открытых.
 
-**Обновлено:** 2026-06-25T20:59:19.964217+00:00 | окно **72 ч** | сигналов: **4608**
+**Обновлено:** 2026-06-25T23:59:21.446834+00:00 | окно **72 ч** | сигналов: **4475**
 
 ## Сводка
 
 | Метрика | Значение |
 |---------|----------|
-| Всего сигналов | 4608 |
-| status `skipped` | 4588 |
-| status `executed` | 16 |
+| Всего сигналов | 4475 |
+| status `skipped` | 4453 |
+| status `executed` | 18 |
 | status `rejected` | 4 |
-| Сопоставлено с реальной сделкой | 53 |
-| Вирт. TP (skipped/virtual) | 128 |
-| Вирт. SL (skipped/virtual) | 140 |
+| Сопоставлено с реальной сделкой | 56 |
+| Вирт. TP (skipped/virtual) | 129 |
+| Вирт. SL (skipped/virtual) | 145 |
 
 ## Структура карты (JSONL)
 
@@ -31,18 +31,18 @@ lookback_hours: 72.0
 
 ## Последние 15 сигналов
 
-- `51e2521ee4ed` **HYPEUSDT** BUY `skipped` conf=0.95 virt=— trail=— real_pnl=
-- `c9d3060a6ede` **HYPEUSDT** BUY `skipped` conf=0.91 virt=— trail=— real_pnl=
-- `10eca5ca05b1` **HYPEUSDT** BUY `skipped` conf=0.92 virt=— trail=— real_pnl=
-- `1e694f2985d0` **HYPEUSDT** BUY `skipped` conf=0.95 virt=— trail=— real_pnl=
-- `0174dea674ff` **HYPEUSDT** BUY `skipped` conf=0.94 virt=— trail=— real_pnl=
-- `b23405b508db` **HYPEUSDT** BUY `skipped` conf=0.93 virt=— trail=— real_pnl=
-- `6121ae1cec12` **HYPEUSDT** BUY `skipped` conf=0.95 virt=— trail=— real_pnl=
-- `0426392e6251` **HYPEUSDT** BUY `skipped` conf=0.95 virt=— trail=— real_pnl=
-- `403df8bcac14` **HYPEUSDT** BUY `skipped` conf=0.95 virt=— trail=— real_pnl=
-- `d6fafbf9c827` **HYPEUSDT** BUY `skipped` conf=0.94 virt=— trail=— real_pnl=
-- `4bb3030571b2` **HYPEUSDT** BUY `skipped` conf=0.93 virt=— trail=— real_pnl=
-- `11ea16cdda0d` **HYPEUSDT** BUY `skipped` conf=0.92 virt=— trail=— real_pnl=
-- `f0fc124a278b` **HYPEUSDT** BUY `skipped` conf=0.90 virt=— trail=— real_pnl=
-- `10a36f515cff` **HYPEUSDT** BUY `skipped` conf=0.90 virt=— trail=— real_pnl=
-- `f1dc21bc04b2` **HYPEUSDT** BUY `skipped` conf=0.89 virt=— trail=— real_pnl=
+- `1b5e455ee27a` **SOLUSDT** BUY `skipped` conf=0.91 virt=— trail=— real_pnl=
+- `ffa8cb746f06` **BTCUSDT** BUY `skipped` conf=0.93 virt=— trail=— real_pnl=
+- `c8be9bf0bb5c` **SOLUSDT** BUY `skipped` conf=0.90 virt=— trail=— real_pnl=
+- `ff3b53f106e0` **BTCUSDT** BUY `skipped` conf=0.92 virt=— trail=— real_pnl=
+- `b1e0508b1f45` **SOLUSDT** BUY `skipped` conf=0.88 virt=— trail=— real_pnl=
+- `def49021d702` **BTCUSDT** BUY `skipped` conf=0.93 virt=— trail=— real_pnl=
+- `4d820af4ccd3` **BTCUSDT** BUY `skipped` conf=0.89 virt=— trail=— real_pnl=
+- `b84135fa74e2` **HYPEUSDT** BUY `skipped` conf=0.89 virt=— trail=— real_pnl=
+- `8985331ee6c0` **AAVEUSDT** BUY `skipped` conf=0.89 virt=— trail=— real_pnl=
+- `fa91b8255be0` **AAVEUSDT** BUY `skipped` conf=0.90 virt=— trail=— real_pnl=
+- `244ebf1dd113` **AAVEUSDT** BUY `skipped` conf=0.90 virt=— trail=— real_pnl=
+- `2047950c7f43` **AAVEUSDT** BUY `skipped` conf=0.91 virt=— trail=— real_pnl=
+- `023a62af23ab` **AAVEUSDT** BUY `skipped` conf=0.93 virt=— trail=— real_pnl=
+- `6b0bce7ce03c` **AAVEUSDT** BUY `skipped` conf=0.93 virt=— trail=— real_pnl=
+- `87ba1f2b7b89` **AAVEUSDT** BUY `skipped` conf=0.93 virt=— trail=— real_pnl=
