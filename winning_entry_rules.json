@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 743,
-  "tp_skipped_virtual": 654,
+  "tp_winners": 750,
+  "tp_skipped_virtual": 661,
   "tp_opened_real": 89,
-  "sl_losers": 526,
+  "sl_losers": 539,
   "outcome_counts": {
-    "profit": 743,
-    "loss": 632,
-    "neutral": 2169
+    "profit": 750,
+    "loss": 645,
+    "neutral": 2189
   },
   "rules": [
     {
@@ -120,7 +120,7 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.925,
+    "confidence": 0.9247,
     "atr_pct": 0.5089,
     "adx": 28.059,
     "rsi": 47.3306,
@@ -132,7 +132,7 @@
     "volume_24h_usdt": 452277474.7
   },
   "top_skip_reasons_on_tp": {
-    "supervisor": 404,
+    "supervisor": 411,
     "макс. позиций": 61,
     "на бирже уже открыта позиция btcusdt — н": 36,
     "на бирже уже открыта позиция solusdt — н": 32,
@@ -661,11 +661,11 @@
     },
     {
       "skip_bucket": "supervisor",
-      "n_total": 1618,
-      "n_virtual_profit": 404,
-      "n_virtual_loss": 354,
-      "n_virtual_neutral": 860,
-      "virtual_tp_rate_pct": 53.3,
+      "n_total": 1648,
+      "n_virtual_profit": 411,
+      "n_virtual_loss": 364,
+      "n_virtual_neutral": 873,
+      "virtual_tp_rate_pct": 53.0,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
@@ -870,6 +870,16 @@
       "reason_ru": "Фильтр «дневной лимит убытка 10.0% (лимит 5%). н» спасает от SL в 100% случаев — оставить."
     },
     {
+      "skip_bucket": "дневной лимит убытка 22.8% (лимит 5%). н",
+      "n_total": 8,
+      "n_virtual_profit": 0,
+      "n_virtual_loss": 3,
+      "n_virtual_neutral": 5,
+      "virtual_tp_rate_pct": 0.0,
+      "recommendation": "keep_strict",
+      "reason_ru": "Фильтр «дневной лимит убытка 22.8% (лимит 5%). н» спасает от SL в 100% случаев — оставить."
+    },
+    {
       "skip_bucket": "order does not meet minimum order value ",
       "n_total": 7,
       "n_virtual_profit": 0,
@@ -881,5 +891,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-25T16:45:49.653845+00:00"
+  "generated_at": "2026-06-25T17:09:54.146769+00:00"
 }
