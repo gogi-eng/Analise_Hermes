@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 718,
-  "tp_skipped_virtual": 636,
+  "tp_winners": 724,
+  "tp_skipped_virtual": 642,
   "tp_opened_real": 82,
-  "sl_losers": 511,
+  "sl_losers": 524,
   "outcome_counts": {
-    "profit": 718,
-    "loss": 608,
-    "neutral": 2068
+    "profit": 724,
+    "loss": 621,
+    "neutral": 2089
   },
   "rules": [
     {
@@ -120,19 +120,19 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.9242,
+    "confidence": 0.9243,
     "atr_pct": 0.4119,
     "adx": 29.8229,
     "rsi": 47.5307,
     "normalized_imbalance": -0.6345,
     "spread_pct": 0.0015,
-    "rr_at_entry": 2.2763,
+    "rr_at_entry": 2.28,
     "soft_score": 90.0,
     "local_hour": 11.5,
     "volume_24h_usdt": 473500917.67
   },
   "top_skip_reasons_on_tp": {
-    "supervisor": 390,
+    "supervisor": 395,
     "макс. позиций": 61,
     "на бирже уже открыта позиция btcusdt — н": 36,
     "на бирже уже открыта позиция solusdt — н": 32,
@@ -660,16 +660,6 @@
       "reason_ru": "Фильтр «impulse_retest» отсек 17 сигналов; 60% дошли бы до TP — возможно слишком жёстко."
     },
     {
-      "skip_bucket": "supervisor",
-      "n_total": 1565,
-      "n_virtual_profit": 390,
-      "n_virtual_loss": 343,
-      "n_virtual_neutral": 832,
-      "virtual_tp_rate_pct": 53.2,
-      "recommendation": "review",
-      "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
-    },
-    {
       "skip_bucket": "на бирже уже открыта позиция btcusdt — н",
       "n_total": 334,
       "n_virtual_profit": 36,
@@ -678,6 +668,16 @@
       "virtual_tp_rate_pct": 52.9,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «на бирже уже открыта позиция btcusdt — н» — нужно больше данных."
+    },
+    {
+      "skip_bucket": "supervisor",
+      "n_total": 1595,
+      "n_virtual_profit": 395,
+      "n_virtual_loss": 354,
+      "n_virtual_neutral": 846,
+      "virtual_tp_rate_pct": 52.7,
+      "recommendation": "review",
+      "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
     {
       "skip_bucket": "дневной лимит убытка $40.47 (лимит $15).",
@@ -708,6 +708,16 @@
       "virtual_tp_rate_pct": 33.3,
       "recommendation": "keep_strict",
       "reason_ru": "Фильтр «дневной лимит убытка 15.5% (лимит 5%). н» спасает от SL в 67% случаев — оставить."
+    },
+    {
+      "skip_bucket": "на бирже уже открыта позиция beatusdt — ",
+      "n_total": 10,
+      "n_virtual_profit": 1,
+      "n_virtual_loss": 2,
+      "n_virtual_neutral": 7,
+      "virtual_tp_rate_pct": 33.3,
+      "recommendation": "keep_strict",
+      "reason_ru": "Фильтр «на бирже уже открыта позиция beatusdt — » спасает от SL в 67% случаев — оставить."
     },
     {
       "skip_bucket": "на бирже уже открыта позиция spcxusdt — ",
@@ -861,5 +871,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-25T05:19:58.802157+00:00"
+  "generated_at": "2026-06-25T05:22:02.602932+00:00"
 }
