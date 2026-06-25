@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 725,
-  "tp_skipped_virtual": 643,
+  "tp_winners": 736,
+  "tp_skipped_virtual": 654,
   "tp_opened_real": 82,
   "sl_losers": 526,
   "outcome_counts": {
-    "profit": 725,
+    "profit": 736,
     "loss": 626,
-    "neutral": 2134
+    "neutral": 2163
   },
   "rules": [
     {
@@ -120,23 +120,23 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.9244,
+    "confidence": 0.9255,
     "atr_pct": 0.4119,
     "adx": 29.8229,
     "rsi": 47.5307,
     "normalized_imbalance": -0.6345,
     "spread_pct": 0.0015,
-    "rr_at_entry": 2.2832,
+    "rr_at_entry": 2.2932,
     "soft_score": 90.0,
     "local_hour": 11.5,
     "volume_24h_usdt": 473500917.67
   },
   "top_skip_reasons_on_tp": {
-    "supervisor": 395,
+    "supervisor": 404,
     "макс. позиций": 61,
     "на бирже уже открыта позиция btcusdt — н": 36,
     "на бирже уже открыта позиция solusdt — н": 32,
-    "на бирже уже открыта позиция ethusdt — н": 22,
+    "на бирже уже открыта позиция ethusdt — н": 24,
     "дневной лимит убытка $35.89 (лимит $15).": 14,
     "кулдаун после убытка": 12,
     "entry_guard": 10
@@ -410,8 +410,8 @@
       "action": "consider_remove",
       "suggested_weight_mult": 0.0,
       "confidence": "high",
-      "reason_ru": "Фильтр «на бирже уже открыта позиция ethusdt — н» отсек 102 сигналов; 92% дошли бы до TP — возможно слишком жёстко.",
-      "n_samples": 102
+      "reason_ru": "Фильтр «на бирже уже открыта позиция ethusdt — н» отсек 115 сигналов; 92% дошли бы до TP — возможно слишком жёстко.",
+      "n_samples": 115
     },
     {
       "filter_id": "skip:на бирже уже открыта позиция solusdt — н",
@@ -581,13 +581,13 @@
     },
     {
       "skip_bucket": "на бирже уже открыта позиция ethusdt — н",
-      "n_total": 102,
-      "n_virtual_profit": 22,
+      "n_total": 115,
+      "n_virtual_profit": 24,
       "n_virtual_loss": 2,
-      "n_virtual_neutral": 78,
-      "virtual_tp_rate_pct": 91.7,
+      "n_virtual_neutral": 89,
+      "virtual_tp_rate_pct": 92.3,
       "recommendation": "consider_relax",
-      "reason_ru": "Фильтр «на бирже уже открыта позиция ethusdt — н» отсек 102 сигналов; 92% дошли бы до TP — возможно слишком жёстко."
+      "reason_ru": "Фильтр «на бирже уже открыта позиция ethusdt — н» отсек 115 сигналов; 92% дошли бы до TP — возможно слишком жёстко."
     },
     {
       "skip_bucket": "entry_guard",
@@ -660,24 +660,24 @@
       "reason_ru": "Фильтр «impulse_retest» отсек 17 сигналов; 60% дошли бы до TP — возможно слишком жёстко."
     },
     {
+      "skip_bucket": "supervisor",
+      "n_total": 1618,
+      "n_virtual_profit": 404,
+      "n_virtual_loss": 354,
+      "n_virtual_neutral": 860,
+      "virtual_tp_rate_pct": 53.3,
+      "recommendation": "review",
+      "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
+    },
+    {
       "skip_bucket": "на бирже уже открыта позиция btcusdt — н",
-      "n_total": 345,
+      "n_total": 349,
       "n_virtual_profit": 36,
       "n_virtual_loss": 32,
-      "n_virtual_neutral": 277,
+      "n_virtual_neutral": 281,
       "virtual_tp_rate_pct": 52.9,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «на бирже уже открыта позиция btcusdt — н» — нужно больше данных."
-    },
-    {
-      "skip_bucket": "supervisor",
-      "n_total": 1595,
-      "n_virtual_profit": 395,
-      "n_virtual_loss": 354,
-      "n_virtual_neutral": 846,
-      "virtual_tp_rate_pct": 52.7,
-      "recommendation": "review",
-      "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
     {
       "skip_bucket": "дневной лимит убытка $40.47 (лимит $15).",
@@ -881,5 +881,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-25T12:22:20.180568+00:00"
+  "generated_at": "2026-06-25T12:24:24.292663+00:00"
 }
