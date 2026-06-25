@@ -4,5 +4,11 @@
   "host": "snapshots-s-2vcpu-4gb-120gb-intel-fra1",
   "fingerprint": "67f79b0d70898da7",
   "lookback_hours": 336.0,
-  "repo": "git@github.com:gogi-eng/Analise_Hermes.git"
+  "repo": "git@github.com:gogi-eng/Analise_Hermes.git",
+  "signal_maps_updated_at": "2026-06-25T11:59:12.747853+00:00",
+  "signal_maps_count": 4980,
+  "signal_maps_jsonl": "hermes_signal_maps.jsonl",
+  "signal_maps_md": "HERMES_SIGNAL_MAPS.md",
+  "signal_maps_source": "PRD-BOT-ALL",
+  "signal_maps_hours": 72.0
 }
