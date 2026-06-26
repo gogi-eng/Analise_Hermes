@@ -56,5 +56,26 @@
     *   `pump_dump_trade.fast_entry_mode`: Флаг для использования market-ордеров с более высоким допуском проскальзывания.
     *   `pump_dump_trade.min_momentum_confirmed_score`: Минимальный скор `momentum_confirmed` для активации памп/дамп режима.
 
+## План по реализации изменений кода (High-Level):
+
+### A. Изменения в `telegram_signal_agent.py`:
+
+1.  **Импортировать `MarketStructureEngine`** из `analysis.market_structure`.
+2.  **Добавить `self._structure_engine = MarketStructureEngine(...)` в `TelegramSignalAgent.__init__`**: 
+    *   Параметры `volume_spike_mult` и `spread_expansion_mult` для `MarketStructureEngine` будут взяты из `config.yaml`. 
+    *   `(Ремарка: в `config.yaml` эти параметры как раз в `external_sentiment.coinugget_style.volume_spike_mult` и нет `spread_extension_mult`.) Необходимо будет выбрать, какие использовать или добавить новые.`
+3.  **Модифицировать `_analyze_spike_setup`**: 
+    *   Вычислить `atr_value` из `klines` (или передать его из вызывающей функции, если он уже доступен).
+    *   Вызвать `structure = self._structure_engine.analyze(klines, atr_value)`.
+    *   Передать `structure.momentum_confirmed` (и, возможно, `structure.volume_spike`, `structure.spread_expansion`) как новый параметр в `analyze_spike_setup`.
+
+### B. Изменения в `telegram_agent/pump_dump_spike_scan.py`:
+
+1.  **Модифицировать `analyze_spike_setup`**: 
+    *   Добавить новый параметр `momentum_confirmed: bool = False`.
+    *   Использовать этот флаг для:
+        *   **Усиления определения `scenario`**: Если `momentum_confirmed` True, это может быть достаточным условием для установки `scenario="PUMP"` или `"DUMP"`, даже если `candle_move_pct` не достиг `min_move_pct`.
+        *   **Бонусов в `compute_spike_score`**: Добавить бонусные очки, если `momentum_confirmed` True.
+
 ## Следующие шаги
-Я начну с изучения `telegram_agent/market_scanner_score.py` и `telegram_agent/pump_dump_spike_scan.py` на предмет того, как `MarketStructure.momentum_confirmed` можно было бы передать в `analyze_spike_setup` и затем использовать для скоринга и установки `scenario`/`spike_mode`.
+Я начну с фактического изучения `telegram_signal_agent.py` и его `__init__` метода, чтобы определить наилучшее место для инстанцирования `MarketStructureEngine` и получения `volume_spike_mult` и `spread_expansion_mult` из `config.yaml`.
