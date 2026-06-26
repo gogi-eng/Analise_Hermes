@@ -1,6 +1,6 @@
 ---
 hermes_feed: true
-generated_at: 2026-06-26T11:59:37.889604+00:00
+generated_at: 2026-06-26T14:59:49.029005+00:00
 source: PRD-BOT-ALL
 lookback_hours: 72.0
 ---
@@ -10,19 +10,19 @@ lookback_hours: 72.0
 > **Для Hermes / Cursor:** полные карты — `hermes_signal_maps.jsonl` (одна строка = один сигнал).
 > Бот пишет **все** сигналы в `signal_ledger`; виртуальный исход — для пропущенных; реальный PnL — для открытых.
 
-**Обновлено:** 2026-06-26T11:59:37.889604+00:00 | окно **72 ч** | сигналов: **4422**
+**Обновлено:** 2026-06-26T14:59:49.029005+00:00 | окно **72 ч** | сигналов: **4655**
 
 ## Сводка
 
 | Метрика | Значение |
 |---------|----------|
-| Всего сигналов | 4422 |
-| status `skipped` | 4397 |
-| status `executed` | 22 |
-| status `rejected` | 3 |
-| Сопоставлено с реальной сделкой | 73 |
-| Вирт. TP (skipped/virtual) | 147 |
-| Вирт. SL (skipped/virtual) | 151 |
+| Всего сигналов | 4655 |
+| status `skipped` | 4626 |
+| status `executed` | 25 |
+| status `rejected` | 4 |
+| Сопоставлено с реальной сделкой | 89 |
+| Вирт. TP (skipped/virtual) | 149 |
+| Вирт. SL (skipped/virtual) | 152 |
 
 ## Структура карты (JSONL)
 
@@ -31,18 +31,18 @@ lookback_hours: 72.0
 
 ## Последние 15 сигналов
 
-- `c875308fe402` **BTCUSDT** SELL `skipped` conf=0.95 virt=— trail=— real_pnl=
-- `5a0bf10f664e` **SOLUSDT** SELL `skipped` conf=0.91 virt=— trail=take_profit real_pnl=
-- `17e66a9a0ed2` **BTCUSDT** SELL `skipped` conf=0.95 virt=— trail=— real_pnl=
-- `23f20b886b0f` **ETHUSDT** SELL `skipped` conf=0.95 virt=— trail=— real_pnl=
-- `1df07b95ecf7` **HYPEUSDT** SELL `skipped` conf=0.95 virt=— trail=— real_pnl=
-- `274f031e1721` **SOLUSDT** SELL `skipped` conf=0.93 virt=— trail=take_profit real_pnl=
-- `1c77197290c2` **BTCUSDT** SELL `skipped` conf=0.95 virt=— trail=— real_pnl=
-- `626eba437c66` **ETHUSDT** SELL `skipped` conf=0.95 virt=— trail=— real_pnl=
-- `50bb53050c61` **HYPEUSDT** SELL `skipped` conf=0.95 virt=— trail=— real_pnl=
-- `485ad139860b` **SOLUSDT** SELL `skipped` conf=0.94 virt=— trail=take_profit real_pnl=
-- `028e6b136af7` **ETHUSDT** SELL `skipped` conf=0.95 virt=— trail=— real_pnl=
-- `391521b3bb53` **BTCUSDT** SELL `skipped` conf=0.95 virt=— trail=— real_pnl=
-- `f952df420b10` **SOXLUSDT** SELL `skipped` conf=0.82 virt=— trail=— real_pnl=
-- `0d3619bdd622` **HYPEUSDT** SELL `skipped` conf=0.95 virt=— trail=— real_pnl=
-- `b3f90f8d1062` **SOLUSDT** SELL `executed` conf=0.93 virt=— trail=take_profit real_pnl=
+- `21d8ed479d54` **BTCUSDT** BUY `skipped` conf=0.92 virt=— trail=stop_loss real_pnl=
+- `7284d7ea369a` **ETHUSDT** BUY `skipped` conf=0.90 virt=— trail=— real_pnl=
+- `413675626c03` **BTCUSDT** BUY `executed` conf=0.94 virt=— trail=stop_loss real_pnl=
+- `4546e2178e2e` **ETHUSDT** BUY `skipped` conf=0.95 virt=— trail=— real_pnl=
+- `4a9bbd998848` **HYPEUSDT** BUY `skipped` conf=0.85 virt=— trail=— real_pnl=
+- `df2acf574b4f` **SOLUSDT** BUY `skipped` conf=0.85 virt=— trail=— real_pnl=
+- `83808421c005` **AAVEUSDT** BUY `rejected` conf=0.85 virt=— trail=— real_pnl=
+- `e334be1152a0` **ZECUSDT** BUY `skipped` conf=0.90 virt=— trail=— real_pnl=
+- `8c49cfc356f3` **ZECUSDT** BUY `skipped` conf=0.95 virt=— trail=— real_pnl=
+- `520508770a84` **ZECUSDT** BUY `skipped` conf=0.94 virt=— trail=— real_pnl=
+- `2f070ee2b3ff` **ZECUSDT** BUY `skipped` conf=0.92 virt=— trail=— real_pnl=
+- `13ff93dcce18` **ZECUSDT** BUY `skipped` conf=0.93 virt=— trail=— real_pnl=
+- `ab46d0d73f8d` **ZECUSDT** BUY `skipped` conf=0.92 virt=— trail=— real_pnl=
+- `58122e55ed00` **SOXLUSDT** SELL `skipped` conf=0.88 virt=— trail=— real_pnl=
+- `64c2720c12a5` **AAVEUSDT** BUY `skipped` conf=0.88 virt=— trail=— real_pnl=
