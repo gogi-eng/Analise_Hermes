@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 789,
-  "tp_skipped_virtual": 690,
+  "tp_winners": 784,
+  "tp_skipped_virtual": 685,
   "tp_opened_real": 99,
   "sl_losers": 575,
   "outcome_counts": {
-    "profit": 789,
+    "profit": 784,
     "loss": 698,
-    "neutral": 2352
+    "neutral": 2317
   },
   "rules": [
     {
@@ -126,14 +126,14 @@
     "rsi": 47.3306,
     "normalized_imbalance": -0.5344,
     "spread_pct": 0.0017,
-    "rr_at_entry": 2.2424,
+    "rr_at_entry": 2.2652,
     "soft_score": 80.0,
     "local_hour": 13.0,
     "volume_24h_usdt": 452277474.7
   },
   "top_skip_reasons_on_tp": {
     "supervisor": 419,
-    "макс. позиций": 61,
+    "макс. позиций": 56,
     "на бирже уже открыта позиция solusdt — н": 46,
     "на бирже уже открыта позиция btcusdt — н": 36,
     "на бирже уже открыта позиция ethusdt — н": 24,
@@ -402,8 +402,8 @@
       "action": "consider_remove",
       "suggested_weight_mult": 0.0,
       "confidence": "high",
-      "reason_ru": "Фильтр «макс. позиций» отсек 225 сигналов; 69% дошли бы до TP — возможно слишком жёстко.",
-      "n_samples": 225
+      "reason_ru": "Фильтр «макс. позиций» отсек 185 сигналов; 67% дошли бы до TP — возможно слишком жёстко.",
+      "n_samples": 185
     },
     {
       "filter_id": "skip:на бирже уже открыта позиция ethusdt — н",
@@ -641,13 +641,13 @@
     },
     {
       "skip_bucket": "макс. позиций",
-      "n_total": 225,
-      "n_virtual_profit": 61,
+      "n_total": 185,
+      "n_virtual_profit": 56,
       "n_virtual_loss": 27,
-      "n_virtual_neutral": 137,
-      "virtual_tp_rate_pct": 69.3,
+      "n_virtual_neutral": 102,
+      "virtual_tp_rate_pct": 67.5,
       "recommendation": "consider_relax",
-      "reason_ru": "Фильтр «макс. позиций» отсек 225 сигналов; 69% дошли бы до TP — возможно слишком жёстко."
+      "reason_ru": "Фильтр «макс. позиций» отсек 185 сигналов; 67% дошли бы до TP — возможно слишком жёстко."
     },
     {
       "skip_bucket": "кулдаун после убытка",
@@ -951,5 +951,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-26T13:48:32.899262+00:00"
+  "generated_at": "2026-06-26T13:56:34.953993+00:00"
 }
