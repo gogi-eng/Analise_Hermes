@@ -3,11 +3,11 @@
   "tp_winners": 774,
   "tp_skipped_virtual": 671,
   "tp_opened_real": 103,
-  "sl_losers": 587,
+  "sl_losers": 594,
   "outcome_counts": {
     "profit": 774,
-    "loss": 715,
-    "neutral": 2335
+    "loss": 722,
+    "neutral": 2368
   },
   "rules": [
     {
@@ -691,10 +691,10 @@
     },
     {
       "skip_bucket": "supervisor",
-      "n_total": 1796,
+      "n_total": 1817,
       "n_virtual_profit": 422,
-      "n_virtual_loss": 402,
-      "n_virtual_neutral": 972,
+      "n_virtual_loss": 403,
+      "n_virtual_neutral": 992,
       "virtual_tp_rate_pct": 51.2,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
@@ -880,6 +880,16 @@
       "reason_ru": "Фильтр «дневной лимит убытка 8.8% (лимит 5%). но» спасает от SL в 100% случаев — оставить."
     },
     {
+      "skip_bucket": "на бирже уже открыта позиция soxlusdt — ",
+      "n_total": 19,
+      "n_virtual_profit": 0,
+      "n_virtual_loss": 6,
+      "n_virtual_neutral": 13,
+      "virtual_tp_rate_pct": 0.0,
+      "recommendation": "keep_strict",
+      "reason_ru": "Фильтр «на бирже уже открыта позиция soxlusdt — » спасает от SL в 100% случаев — оставить."
+    },
+    {
       "skip_bucket": "дневной лимит убытка $26.21 (лимит $15).",
       "n_total": 18,
       "n_virtual_profit": 0,
@@ -991,5 +1001,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-26T22:18:23.243493+00:00"
+  "generated_at": "2026-06-26T22:20:25.536710+00:00"
 }
