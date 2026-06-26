@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 775,
-  "tp_skipped_virtual": 672,
+  "tp_winners": 780,
+  "tp_skipped_virtual": 677,
   "tp_opened_real": 103,
-  "sl_losers": 577,
+  "sl_losers": 588,
   "outcome_counts": {
-    "profit": 775,
-    "loss": 706,
-    "neutral": 2336
+    "profit": 780,
+    "loss": 717,
+    "neutral": 2360
   },
   "rules": [
     {
@@ -120,19 +120,19 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.9222,
+    "confidence": 0.9214,
     "atr_pct": 0.5089,
     "adx": 28.059,
     "rsi": 47.3306,
     "normalized_imbalance": -0.5344,
     "spread_pct": 0.0017,
-    "rr_at_entry": 2.2065,
+    "rr_at_entry": 2.2041,
     "soft_score": 80.0,
     "local_hour": 13.0,
     "volume_24h_usdt": 452277474.7
   },
   "top_skip_reasons_on_tp": {
-    "supervisor": 419,
+    "supervisor": 422,
     "на бирже уже открыта позиция solusdt — н": 46,
     "макс. позиций": 42,
     "на бирже уже открыта позиция btcusdt — н": 36,
@@ -640,6 +640,16 @@
       "reason_ru": "Фильтр «дневной лимит убытка 32.4% (лимит 5%). н» отсек 12 сигналов; 71% дошли бы до TP — возможно слишком жёстко."
     },
     {
+      "skip_bucket": "на бирже уже открыта позиция magmausdt —",
+      "n_total": 3,
+      "n_virtual_profit": 2,
+      "n_virtual_loss": 1,
+      "n_virtual_neutral": 0,
+      "virtual_tp_rate_pct": 66.7,
+      "recommendation": "consider_relax",
+      "reason_ru": "Фильтр «на бирже уже открыта позиция magmausdt —» отсек 3 сигналов; 67% дошли бы до TP — возможно слишком жёстко."
+    },
+    {
       "skip_bucket": "кулдаун после убытка",
       "n_total": 28,
       "n_virtual_profit": 12,
@@ -681,11 +691,11 @@
     },
     {
       "skip_bucket": "supervisor",
-      "n_total": 1759,
-      "n_virtual_profit": 419,
-      "n_virtual_loss": 392,
-      "n_virtual_neutral": 948,
-      "virtual_tp_rate_pct": 51.7,
+      "n_total": 1796,
+      "n_virtual_profit": 422,
+      "n_virtual_loss": 402,
+      "n_virtual_neutral": 972,
+      "virtual_tp_rate_pct": 51.2,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
@@ -981,5 +991,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-26T18:47:11.080837+00:00"
+  "generated_at": "2026-06-26T18:49:13.254174+00:00"
 }
