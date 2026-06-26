@@ -1,14 +1,8 @@
 {
-  "updated_at": "2026-06-26T08:57:43.296272+00:00",
+  "updated_at": "2026-06-26T08:59:47.531311+00:00",
   "source": "AGENT-WORLD",
   "host": "snapshots-s-2vcpu-4gb-120gb-intel-fra1",
-  "fingerprint": "1f411c929b761c5e",
+  "fingerprint": "f8f5ce2ec16747ca",
   "lookback_hours": 336.0,
-  "repo": "git@github.com:gogi-eng/Analise_Hermes.git",
-  "signal_maps_updated_at": "2026-06-26T08:59:28.802750+00:00",
-  "signal_maps_count": 4291,
-  "signal_maps_jsonl": "hermes_signal_maps.jsonl",
-  "signal_maps_md": "HERMES_SIGNAL_MAPS.md",
-  "signal_maps_source": "PRD-BOT-ALL",
-  "signal_maps_hours": 72.0
+  "repo": "git@github.com:gogi-eng/Analise_Hermes.git"
 }
