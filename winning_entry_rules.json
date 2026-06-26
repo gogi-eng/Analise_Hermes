@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 787,
-  "tp_skipped_virtual": 686,
+  "tp_winners": 773,
+  "tp_skipped_virtual": 672,
   "tp_opened_real": 101,
-  "sl_losers": 578,
+  "sl_losers": 577,
   "outcome_counts": {
-    "profit": 787,
-    "loss": 706,
-    "neutral": 2361
+    "profit": 773,
+    "loss": 705,
+    "neutral": 2336
   },
   "rules": [
     {
@@ -120,21 +120,21 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.9232,
+    "confidence": 0.9224,
     "atr_pct": 0.5089,
     "adx": 28.059,
     "rsi": 47.3306,
     "normalized_imbalance": -0.5344,
     "spread_pct": 0.0017,
-    "rr_at_entry": 2.2618,
+    "rr_at_entry": 2.2065,
     "soft_score": 80.0,
     "local_hour": 13.0,
     "volume_24h_usdt": 452277474.7
   },
   "top_skip_reasons_on_tp": {
     "supervisor": 419,
-    "макс. позиций": 56,
     "на бирже уже открыта позиция solusdt — н": 46,
+    "макс. позиций": 42,
     "на бирже уже открыта позиция btcusdt — н": 36,
     "на бирже уже открыта позиция ethusdt — н": 24,
     "дневной лимит убытка $35.89 (лимит $15).": 14,
@@ -401,9 +401,9 @@
       "filter_id": "skip:макс. позиций",
       "action": "consider_remove",
       "suggested_weight_mult": 0.0,
-      "confidence": "high",
-      "reason_ru": "Фильтр «макс. позиций» отсек 185 сигналов; 67% дошли бы до TP — возможно слишком жёстко.",
-      "n_samples": 185
+      "confidence": "medium",
+      "reason_ru": "Фильтр «макс. позиций» отсек 145 сигналов; 62% дошли бы до TP — возможно слишком жёстко.",
+      "n_samples": 145
     },
     {
       "filter_id": "skip:на бирже уже открыта позиция ethusdt — н",
@@ -640,16 +640,6 @@
       "reason_ru": "Фильтр «дневной лимит убытка 32.4% (лимит 5%). н» отсек 12 сигналов; 71% дошли бы до TP — возможно слишком жёстко."
     },
     {
-      "skip_bucket": "макс. позиций",
-      "n_total": 185,
-      "n_virtual_profit": 56,
-      "n_virtual_loss": 27,
-      "n_virtual_neutral": 102,
-      "virtual_tp_rate_pct": 67.5,
-      "recommendation": "consider_relax",
-      "reason_ru": "Фильтр «макс. позиций» отсек 185 сигналов; 67% дошли бы до TP — возможно слишком жёстко."
-    },
-    {
       "skip_bucket": "кулдаун после убытка",
       "n_total": 28,
       "n_virtual_profit": 12,
@@ -658,6 +648,16 @@
       "virtual_tp_rate_pct": 63.2,
       "recommendation": "consider_relax",
       "reason_ru": "Фильтр «кулдаун после убытка» отсек 28 сигналов; 63% дошли бы до TP — возможно слишком жёстко."
+    },
+    {
+      "skip_bucket": "макс. позиций",
+      "n_total": 145,
+      "n_virtual_profit": 42,
+      "n_virtual_loss": 26,
+      "n_virtual_neutral": 77,
+      "virtual_tp_rate_pct": 61.8,
+      "recommendation": "consider_relax",
+      "reason_ru": "Фильтр «макс. позиций» отсек 145 сигналов; 62% дошли бы до TP — возможно слишком жёстко."
     },
     {
       "skip_bucket": "impulse_retest",
@@ -981,5 +981,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-26T17:19:41.318860+00:00"
+  "generated_at": "2026-06-26T17:21:43.498638+00:00"
 }
