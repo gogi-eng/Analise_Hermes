@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 759,
+  "tp_winners": 760,
   "tp_skipped_virtual": 651,
-  "tp_opened_real": 108,
+  "tp_opened_real": 109,
   "sl_losers": 582,
   "outcome_counts": {
-    "profit": 759,
-    "loss": 710,
-    "neutral": 2423
+    "profit": 760,
+    "loss": 711,
+    "neutral": 2424
   },
   "rules": [
     {
@@ -162,7 +162,7 @@
       "win_rate_pct": 36.8,
       "avg_pnl_pct": 2.7626,
       "baseline_win_rate_pct": 45.8,
-      "lift_pct": -8.9
+      "lift_pct": -9.0
     },
     {
       "filter_id": "atr_sweet",
@@ -195,7 +195,7 @@
       "win_rate_pct": 33.3,
       "avg_pnl_pct": 0.9605,
       "baseline_win_rate_pct": 45.8,
-      "lift_pct": -12.4
+      "lift_pct": -12.5
     },
     {
       "filter_id": "regime_trend",
@@ -305,7 +305,7 @@
       "win_rate_pct": 33.3,
       "avg_pnl_pct": 4.616,
       "baseline_win_rate_pct": 45.8,
-      "lift_pct": -12.4
+      "lift_pct": -12.5
     },
     {
       "filter_id": "rsi_high",
@@ -327,7 +327,7 @@
       "win_rate_pct": 53.8,
       "avg_pnl_pct": -13.0439,
       "baseline_win_rate_pct": 45.8,
-      "lift_pct": 8.1
+      "lift_pct": 8.0
     },
     {
       "filter_id": "adx_high",
@@ -1011,5 +1011,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-27T22:15:23.139081+00:00"
+  "generated_at": "2026-06-27T22:17:25.402456+00:00"
 }
