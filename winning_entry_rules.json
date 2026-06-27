@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 778,
-  "tp_skipped_virtual": 672,
+  "tp_winners": 777,
+  "tp_skipped_virtual": 671,
   "tp_opened_real": 106,
-  "sl_losers": 615,
+  "sl_losers": 601,
   "outcome_counts": {
-    "profit": 778,
-    "loss": 744,
-    "neutral": 2354
+    "profit": 777,
+    "loss": 730,
+    "neutral": 2329
   },
   "rules": [
     {
@@ -126,13 +126,13 @@
     "rsi": 47.3306,
     "normalized_imbalance": -0.5344,
     "spread_pct": 0.0017,
-    "rr_at_entry": 2.1944,
+    "rr_at_entry": 2.1961,
     "soft_score": 80.0,
     "local_hour": 13.0,
     "volume_24h_usdt": 452277474.7
   },
   "top_skip_reasons_on_tp": {
-    "supervisor": 423,
+    "supervisor": 422,
     "на бирже уже открыта позиция solusdt — н": 46,
     "макс. позиций": 36,
     "на бирже уже открыта позиция btcusdt — н": 36,
@@ -681,13 +681,23 @@
     },
     {
       "skip_bucket": "на бирже уже открыта позиция btcusdt — н",
-      "n_total": 339,
+      "n_total": 335,
       "n_virtual_profit": 36,
-      "n_virtual_loss": 32,
+      "n_virtual_loss": 28,
       "n_virtual_neutral": 271,
-      "virtual_tp_rate_pct": 52.9,
+      "virtual_tp_rate_pct": 56.2,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «на бирже уже открыта позиция btcusdt — н» — нужно больше данных."
+    },
+    {
+      "skip_bucket": "supervisor",
+      "n_total": 1788,
+      "n_virtual_profit": 422,
+      "n_virtual_loss": 417,
+      "n_virtual_neutral": 949,
+      "virtual_tp_rate_pct": 50.3,
+      "recommendation": "review",
+      "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
     {
       "skip_bucket": "дневной лимит убытка $13.12 (лимит $10).",
@@ -698,16 +708,6 @@
       "virtual_tp_rate_pct": 50.0,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «дневной лимит убытка $13.12 (лимит $10).» — нужно больше данных."
-    },
-    {
-      "skip_bucket": "supervisor",
-      "n_total": 1824,
-      "n_virtual_profit": 423,
-      "n_virtual_loss": 427,
-      "n_virtual_neutral": 974,
-      "virtual_tp_rate_pct": 49.8,
-      "recommendation": "review",
-      "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
     {
       "skip_bucket": "дневной лимит убытка $40.47 (лимит $15).",
@@ -1001,5 +1001,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-27T03:50:43.358385+00:00"
+  "generated_at": "2026-06-27T03:52:45.527206+00:00"
 }
