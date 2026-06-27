@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 776,
-  "tp_skipped_virtual": 671,
+  "tp_winners": 777,
+  "tp_skipped_virtual": 672,
   "tp_opened_real": 105,
-  "sl_losers": 590,
+  "sl_losers": 615,
   "outcome_counts": {
-    "profit": 776,
-    "loss": 718,
-    "neutral": 2336
+    "profit": 777,
+    "loss": 743,
+    "neutral": 2350
   },
   "rules": [
     {
@@ -126,13 +126,13 @@
     "rsi": 47.3306,
     "normalized_imbalance": -0.5344,
     "spread_pct": 0.0017,
-    "rr_at_entry": 2.1961,
+    "rr_at_entry": 2.1944,
     "soft_score": 80.0,
     "local_hour": 13.0,
     "volume_24h_usdt": 452277474.7
   },
   "top_skip_reasons_on_tp": {
-    "supervisor": 422,
+    "supervisor": 423,
     "на бирже уже открыта позиция solusdt — н": 46,
     "макс. позиций": 36,
     "на бирже уже открыта позиция btcusdt — н": 36,
@@ -690,16 +690,6 @@
       "reason_ru": "Смешанный эффект фильтра «на бирже уже открыта позиция btcusdt — н» — нужно больше данных."
     },
     {
-      "skip_bucket": "supervisor",
-      "n_total": 1790,
-      "n_virtual_profit": 422,
-      "n_virtual_loss": 403,
-      "n_virtual_neutral": 965,
-      "virtual_tp_rate_pct": 51.2,
-      "recommendation": "review",
-      "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
-    },
-    {
       "skip_bucket": "дневной лимит убытка $13.12 (лимит $10).",
       "n_total": 10,
       "n_virtual_profit": 1,
@@ -708,6 +698,16 @@
       "virtual_tp_rate_pct": 50.0,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «дневной лимит убытка $13.12 (лимит $10).» — нужно больше данных."
+    },
+    {
+      "skip_bucket": "supervisor",
+      "n_total": 1824,
+      "n_virtual_profit": 423,
+      "n_virtual_loss": 427,
+      "n_virtual_neutral": 974,
+      "virtual_tp_rate_pct": 49.8,
+      "recommendation": "review",
+      "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
     {
       "skip_bucket": "дневной лимит убытка $40.47 (лимит $15).",
@@ -840,6 +840,16 @@
       "reason_ru": "Фильтр «дневной лимит убытка 19.2% (лимит 5%). н» спасает от SL в 100% случаев — оставить."
     },
     {
+      "skip_bucket": "на бирже уже открыта позиция soxlusdt — ",
+      "n_total": 24,
+      "n_virtual_profit": 0,
+      "n_virtual_loss": 6,
+      "n_virtual_neutral": 18,
+      "virtual_tp_rate_pct": 0.0,
+      "recommendation": "keep_strict",
+      "reason_ru": "Фильтр «на бирже уже открыта позиция soxlusdt — » спасает от SL в 100% случаев — оставить."
+    },
+    {
       "skip_bucket": "дневной лимит убытка 10.4% (лимит 5%). н",
       "n_total": 23,
       "n_virtual_profit": 0,
@@ -878,16 +888,6 @@
       "virtual_tp_rate_pct": 0.0,
       "recommendation": "keep_strict",
       "reason_ru": "Фильтр «дневной лимит убытка 8.8% (лимит 5%). но» спасает от SL в 100% случаев — оставить."
-    },
-    {
-      "skip_bucket": "на бирже уже открыта позиция soxlusdt — ",
-      "n_total": 19,
-      "n_virtual_profit": 0,
-      "n_virtual_loss": 6,
-      "n_virtual_neutral": 13,
-      "virtual_tp_rate_pct": 0.0,
-      "recommendation": "keep_strict",
-      "reason_ru": "Фильтр «на бирже уже открыта позиция soxlusdt — » спасает от SL в 100% случаев — оставить."
     },
     {
       "skip_bucket": "дневной лимит убытка $26.21 (лимит $15).",
@@ -1001,5 +1001,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-27T01:47:10.660644+00:00"
+  "generated_at": "2026-06-27T01:49:12.727853+00:00"
 }
