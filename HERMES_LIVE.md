@@ -1,7 +1,7 @@
 ---
 hermes_feed: true
-generated_at: 2026-06-27T07:47:18.347538+00:00
-fingerprint: 661ade357ff9ecd7
+generated_at: 2026-06-27T07:49:20.601009+00:00
+fingerprint: e1a5e55ef09a0caa
 source: AGENT-WORLD
 lookback_hours: 336.0
 host: snapshots-s-2vcpu-4gb-120gb-intel-fra1
@@ -13,7 +13,7 @@ host: snapshots-s-2vcpu-4gb-120gb-intel-fra1
 > Рекомендации — только предложения. ZeroOne: **максимум одна** правка config за раз.
 > Не меняй `config.yaml` и не ставь ордера без явной просьбы пользователя.
 
-**Обновлено:** 2026-06-27T07:47:18.347538+00:00 | окно **336 ч** | id `661ade357ff9ecd7`
+**Обновлено:** 2026-06-27T07:49:20.601009+00:00 | окно **336 ч** | id `e1a5e55ef09a0caa`
 
 ## Сводка исходов
 
@@ -21,7 +21,7 @@ host: snapshots-s-2vcpu-4gb-120gb-intel-fra1
 |-------|--------|
 | Профит | 779 |
 | Убыток | 719 |
-| Безубыток | 2343 |
+| Безубыток | 2342 |
 
 TP всего: **779** (вирт 672, биржа 107) | SL/убытки: **590**
 
