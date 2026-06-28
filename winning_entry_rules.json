@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 762,
-  "tp_skipped_virtual": 646,
+  "tp_winners": 771,
+  "tp_skipped_virtual": 655,
   "tp_opened_real": 116,
-  "sl_losers": 593,
+  "sl_losers": 599,
   "outcome_counts": {
-    "profit": 762,
-    "loss": 726,
-    "neutral": 2334
+    "profit": 771,
+    "loss": 732,
+    "neutral": 2359
   },
   "rules": [
     {
@@ -120,19 +120,19 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.9232,
+    "confidence": 0.9231,
     "atr_pct": 0.5419,
     "adx": 29.8229,
     "rsi": 42.3684,
     "normalized_imbalance": -0.6345,
     "spread_pct": 0.0016,
-    "rr_at_entry": 2.1537,
+    "rr_at_entry": 2.1794,
     "soft_score": 90.0,
     "local_hour": 11.5,
     "volume_24h_usdt": 326105378.775
   },
   "top_skip_reasons_on_tp": {
-    "supervisor": 428,
+    "supervisor": 437,
     "на бирже уже открыта позиция btcusdt — н": 36,
     "на бирже уже открыта позиция solusdt — н": 29,
     "на бирже уже открыта позиция ethusdt — н": 24,
@@ -426,8 +426,8 @@
       "action": "consider_remove",
       "suggested_weight_mult": 0.0,
       "confidence": "high",
-      "reason_ru": "Фильтр «на бирже уже открыта позиция zecusdt — н» отсек 46 сигналов; 100% дошли бы до TP — возможно слишком жёстко.",
-      "n_samples": 46
+      "reason_ru": "Фильтр «на бирже уже открыта позиция zecusdt — н» отсек 52 сигналов; 91% дошли бы до TP — возможно слишком жёстко.",
+      "n_samples": 52
     },
     {
       "filter_id": "skip:дневной лимит убытка 25.5% (лимит 5%). н",
@@ -520,16 +520,6 @@
   ],
   "skip_filter_reviews": [
     {
-      "skip_bucket": "на бирже уже открыта позиция zecusdt — н",
-      "n_total": 46,
-      "n_virtual_profit": 10,
-      "n_virtual_loss": 0,
-      "n_virtual_neutral": 36,
-      "virtual_tp_rate_pct": 100.0,
-      "recommendation": "consider_relax",
-      "reason_ru": "Фильтр «на бирже уже открыта позиция zecusdt — н» отсек 46 сигналов; 100% дошли бы до TP — возможно слишком жёстко."
-    },
-    {
       "skip_bucket": "дневной лимит убытка 25.5% (лимит 5%). н",
       "n_total": 40,
       "n_virtual_profit": 8,
@@ -588,6 +578,16 @@
       "virtual_tp_rate_pct": 100.0,
       "recommendation": "consider_relax",
       "reason_ru": "Фильтр «дневной лимит убытка 16.3% (лимит 5%). н» отсек 3 сигналов; 100% дошли бы до TP — возможно слишком жёстко."
+    },
+    {
+      "skip_bucket": "на бирже уже открыта позиция zecusdt — н",
+      "n_total": 52,
+      "n_virtual_profit": 10,
+      "n_virtual_loss": 1,
+      "n_virtual_neutral": 41,
+      "virtual_tp_rate_pct": 90.9,
+      "recommendation": "consider_relax",
+      "reason_ru": "Фильтр «на бирже уже открыта позиция zecusdt — н» отсек 52 сигналов; 91% дошли бы до TP — возможно слишком жёстко."
     },
     {
       "skip_bucket": "entry_guard",
@@ -711,11 +711,11 @@
     },
     {
       "skip_bucket": "supervisor",
-      "n_total": 1809,
-      "n_virtual_profit": 428,
-      "n_virtual_loss": 436,
-      "n_virtual_neutral": 945,
-      "virtual_tp_rate_pct": 49.5,
+      "n_total": 1840,
+      "n_virtual_profit": 437,
+      "n_virtual_loss": 440,
+      "n_virtual_neutral": 963,
+      "virtual_tp_rate_pct": 49.8,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
@@ -1028,8 +1028,18 @@
       "virtual_tp_rate_pct": 0.0,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «на бирже уже открыта позиция actusdt — н» — нужно больше данных."
+    },
+    {
+      "skip_bucket": "на бирже уже открыта позиция mantausdt —",
+      "n_total": 3,
+      "n_virtual_profit": 0,
+      "n_virtual_loss": 1,
+      "n_virtual_neutral": 2,
+      "virtual_tp_rate_pct": 0.0,
+      "recommendation": "review",
+      "reason_ru": "Смешанный эффект фильтра «на бирже уже открыта позиция mantausdt —» — нужно больше данных."
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-28T15:52:38.506819+00:00"
+  "generated_at": "2026-06-28T15:54:40.723570+00:00"
 }
