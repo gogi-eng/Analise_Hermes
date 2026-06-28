@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 749,
-  "tp_skipped_virtual": 633,
+  "tp_winners": 762,
+  "tp_skipped_virtual": 646,
   "tp_opened_real": 116,
-  "sl_losers": 587,
+  "sl_losers": 595,
   "outcome_counts": {
-    "profit": 749,
-    "loss": 720,
-    "neutral": 2343
+    "profit": 762,
+    "loss": 728,
+    "neutral": 2362
   },
   "rules": [
     {
@@ -120,13 +120,13 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.924,
+    "confidence": 0.9232,
     "atr_pct": 0.5419,
     "adx": 29.8229,
     "rsi": 42.3684,
     "normalized_imbalance": -0.6345,
     "spread_pct": 0.0016,
-    "rr_at_entry": 2.1237,
+    "rr_at_entry": 2.1537,
     "soft_score": 90.0,
     "local_hour": 11.5,
     "volume_24h_usdt": 326105378.775
@@ -137,9 +137,9 @@
     "на бирже уже открыта позиция solusdt — н": 29,
     "на бирже уже открыта позиция ethusdt — н": 24,
     "дневной лимит убытка $35.89 (лимит $15).": 14,
+    "лимит сделок на сегодня. сброс через 12ч": 13,
     "кулдаун после убытка": 12,
-    "entry_guard": 10,
-    "на бирже уже открыта позиция zecusdt — н": 10
+    "entry_guard": 10
   },
   "filter_impacts": [
     {
@@ -438,6 +438,14 @@
       "n_samples": 40
     },
     {
+      "filter_id": "skip:лимит сделок на сегодня. сброс через 12ч",
+      "action": "consider_remove",
+      "suggested_weight_mult": 0.0,
+      "confidence": "high",
+      "reason_ru": "Фильтр «лимит сделок на сегодня. сброс через 12ч» отсек 28 сигналов; 68% дошли бы до TP — возможно слишком жёстко.",
+      "n_samples": 28
+    },
+    {
       "filter_id": "skip:лимит сделок на сегодня. сброс через 1ч ",
       "action": "consider_remove",
       "suggested_weight_mult": 0.0,
@@ -508,14 +516,6 @@
       "confidence": "high",
       "reason_ru": "Фильтр «дневной лимит убытка $32.87 (лимит $15).» отсек 6 сигналов; 100% дошли бы до TP — возможно слишком жёстко.",
       "n_samples": 6
-    },
-    {
-      "filter_id": "skip:дневной лимит убытка 16.3% (лимит 5%). н",
-      "action": "consider_remove",
-      "suggested_weight_mult": 0.0,
-      "confidence": "high",
-      "reason_ru": "Фильтр «дневной лимит убытка 16.3% (лимит 5%). н» отсек 3 сигналов; 100% дошли бы до TP — возможно слишком жёстко.",
-      "n_samples": 3
     }
   ],
   "skip_filter_reviews": [
@@ -648,6 +648,16 @@
       "virtual_tp_rate_pct": 71.4,
       "recommendation": "consider_relax",
       "reason_ru": "Фильтр «дневной лимит убытка 32.4% (лимит 5%). н» отсек 12 сигналов; 71% дошли бы до TP — возможно слишком жёстко."
+    },
+    {
+      "skip_bucket": "лимит сделок на сегодня. сброс через 12ч",
+      "n_total": 28,
+      "n_virtual_profit": 13,
+      "n_virtual_loss": 6,
+      "n_virtual_neutral": 9,
+      "virtual_tp_rate_pct": 68.4,
+      "recommendation": "consider_relax",
+      "reason_ru": "Фильтр «лимит сделок на сегодня. сброс через 12ч» отсек 28 сигналов; 68% дошли бы до TP — возможно слишком жёстко."
     },
     {
       "skip_bucket": "на бирже уже открыта позиция btcusdt — н",
@@ -920,6 +930,16 @@
       "reason_ru": "Фильтр «дневной лимит убытка 10.0% (лимит 5%). н» спасает от SL в 100% случаев — оставить."
     },
     {
+      "skip_bucket": "на бирже уже открыта позиция labusdt — н",
+      "n_total": 10,
+      "n_virtual_profit": 0,
+      "n_virtual_loss": 1,
+      "n_virtual_neutral": 9,
+      "virtual_tp_rate_pct": 0.0,
+      "recommendation": "review",
+      "reason_ru": "Смешанный эффект фильтра «на бирже уже открыта позиция labusdt — н» — нужно больше данных."
+    },
+    {
       "skip_bucket": "дневной лимит убытка 14.9% (лимит 5%). н",
       "n_total": 9,
       "n_virtual_profit": 0,
@@ -998,8 +1018,18 @@
       "virtual_tp_rate_pct": 0.0,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «дневной лимит убытка $11.91 (лимит $10).» — нужно больше данных."
+    },
+    {
+      "skip_bucket": "на бирже уже открыта позиция actusdt — н",
+      "n_total": 4,
+      "n_virtual_profit": 0,
+      "n_virtual_loss": 1,
+      "n_virtual_neutral": 3,
+      "virtual_tp_rate_pct": 0.0,
+      "recommendation": "review",
+      "reason_ru": "Смешанный эффект фильтра «на бирже уже открыта позиция actusdt — н» — нужно больше данных."
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-28T12:15:48.136079+00:00"
+  "generated_at": "2026-06-28T12:25:50.517702+00:00"
 }
