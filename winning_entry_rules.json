@@ -3,11 +3,11 @@
   "tp_winners": 761,
   "tp_skipped_virtual": 651,
   "tp_opened_real": 110,
-  "sl_losers": 578,
+  "sl_losers": 592,
   "outcome_counts": {
     "profit": 761,
-    "loss": 707,
-    "neutral": 2395
+    "loss": 721,
+    "neutral": 2421
   },
   "rules": [
     {
@@ -690,16 +690,6 @@
       "reason_ru": "Фильтр «impulse_retest» отсек 17 сигналов; 60% дошли бы до TP — возможно слишком жёстко."
     },
     {
-      "skip_bucket": "supervisor",
-      "n_total": 1853,
-      "n_virtual_profit": 428,
-      "n_virtual_loss": 428,
-      "n_virtual_neutral": 997,
-      "virtual_tp_rate_pct": 50.0,
-      "recommendation": "review",
-      "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
-    },
-    {
       "skip_bucket": "дневной лимит убытка $13.12 (лимит $10).",
       "n_total": 10,
       "n_virtual_profit": 1,
@@ -708,6 +698,16 @@
       "virtual_tp_rate_pct": 50.0,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «дневной лимит убытка $13.12 (лимит $10).» — нужно больше данных."
+    },
+    {
+      "skip_bucket": "supervisor",
+      "n_total": 1893,
+      "n_virtual_profit": 428,
+      "n_virtual_loss": 442,
+      "n_virtual_neutral": 1023,
+      "virtual_tp_rate_pct": 49.2,
+      "recommendation": "review",
+      "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
     {
       "skip_bucket": "дневной лимит убытка $40.47 (лимит $15).",
@@ -1011,5 +1011,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-28T01:29:43.629149+00:00"
+  "generated_at": "2026-06-28T01:31:45.704049+00:00"
 }
