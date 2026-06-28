@@ -3,11 +3,11 @@
   "tp_winners": 748,
   "tp_skipped_virtual": 633,
   "tp_opened_real": 115,
-  "sl_losers": 590,
+  "sl_losers": 587,
   "outcome_counts": {
     "profit": 748,
-    "loss": 723,
-    "neutral": 2378
+    "loss": 720,
+    "neutral": 2341
   },
   "rules": [
     {
@@ -402,8 +402,8 @@
       "action": "consider_remove",
       "suggested_weight_mult": 0.0,
       "confidence": "high",
-      "reason_ru": "Фильтр «на бирже уже открыта позиция btcusdt — н» отсек 340 сигналов; 67% дошли бы до TP — возможно слишком жёстко.",
-      "n_samples": 340
+      "reason_ru": "Фильтр «на бирже уже открыта позиция btcusdt — н» отсек 337 сигналов; 67% дошли бы до TP — возможно слишком жёстко.",
+      "n_samples": 337
     },
     {
       "filter_id": "skip:на бирже уже открыта позиция ethusdt — н",
@@ -651,13 +651,13 @@
     },
     {
       "skip_bucket": "на бирже уже открыта позиция btcusdt — н",
-      "n_total": 340,
+      "n_total": 337,
       "n_virtual_profit": 36,
       "n_virtual_loss": 18,
-      "n_virtual_neutral": 286,
+      "n_virtual_neutral": 283,
       "virtual_tp_rate_pct": 66.7,
       "recommendation": "consider_relax",
-      "reason_ru": "Фильтр «на бирже уже открыта позиция btcusdt — н» отсек 340 сигналов; 67% дошли бы до TP — возможно слишком жёстко."
+      "reason_ru": "Фильтр «на бирже уже открыта позиция btcusdt — н» отсек 337 сигналов; 67% дошли бы до TP — возможно слишком жёстко."
     },
     {
       "skip_bucket": "на бирже уже открыта позиция magmausdt —",
@@ -701,11 +701,11 @@
     },
     {
       "skip_bucket": "supervisor",
-      "n_total": 1876,
+      "n_total": 1839,
       "n_virtual_profit": 428,
-      "n_virtual_loss": 441,
-      "n_virtual_neutral": 1007,
-      "virtual_tp_rate_pct": 49.3,
+      "n_virtual_loss": 438,
+      "n_virtual_neutral": 973,
+      "virtual_tp_rate_pct": 49.4,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
@@ -1001,5 +1001,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-28T11:47:16.783301+00:00"
+  "generated_at": "2026-06-28T11:49:19.059995+00:00"
 }
