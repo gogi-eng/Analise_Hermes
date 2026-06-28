@@ -7,7 +7,7 @@
   "outcome_counts": {
     "profit": 764,
     "loss": 732,
-    "neutral": 2331
+    "neutral": 2371
   },
   "rules": [
     {
@@ -810,6 +810,16 @@
       "reason_ru": "Фильтр «дневной лимит убытка $39.92 (лимит $15).» спасает от SL в 90% случаев — оставить."
     },
     {
+      "skip_bucket": "лимит сделок на сегодня. сброс через 5ч ",
+      "n_total": 41,
+      "n_virtual_profit": 0,
+      "n_virtual_loss": 0,
+      "n_virtual_neutral": 41,
+      "virtual_tp_rate_pct": 0.0,
+      "recommendation": "review",
+      "reason_ru": "Смешанный эффект фильтра «лимит сделок на сегодня. сброс через 5ч » — нужно больше данных."
+    },
+    {
       "skip_bucket": "на бирже уже открыта позиция hypeusdt — ",
       "n_total": 39,
       "n_virtual_profit": 0,
@@ -1031,5 +1041,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-28T19:23:56.387055+00:00"
+  "generated_at": "2026-06-28T19:25:58.668607+00:00"
 }
