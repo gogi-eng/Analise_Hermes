@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 764,
-  "tp_skipped_virtual": 647,
+  "tp_winners": 775,
+  "tp_skipped_virtual": 658,
   "tp_opened_real": 117,
-  "sl_losers": 599,
+  "sl_losers": 602,
   "outcome_counts": {
-    "profit": 764,
-    "loss": 733,
-    "neutral": 2370
+    "profit": 775,
+    "loss": 736,
+    "neutral": 2396
   },
   "rules": [
     {
@@ -120,13 +120,13 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.9227,
+    "confidence": 0.9222,
     "atr_pct": 0.5748,
     "adx": 31.5868,
     "rsi": 47.3306,
     "normalized_imbalance": -0.7347,
     "spread_pct": 0.0016,
-    "rr_at_entry": 2.2023,
+    "rr_at_entry": 2.2156,
     "soft_score": 100.0,
     "local_hour": 13.0,
     "volume_24h_usdt": 199933282.85
@@ -137,9 +137,9 @@
     "на бирже уже открыта позиция solusdt — н": 29,
     "на бирже уже открыта позиция ethusdt — н": 24,
     "дневной лимит убытка $35.89 (лимит $15).": 14,
+    "лимит сделок на сегодня. сброс через 1ч ": 13,
     "лимит сделок на сегодня. сброс через 12ч": 13,
-    "кулдаун после убытка": 12,
-    "entry_guard": 10
+    "кулдаун после убытка": 12
   },
   "filter_impacts": [
     {
@@ -422,6 +422,14 @@
       "n_samples": 67
     },
     {
+      "filter_id": "skip:лимит сделок на сегодня. сброс через 1ч ",
+      "action": "consider_remove",
+      "suggested_weight_mult": 0.0,
+      "confidence": "high",
+      "reason_ru": "Фильтр «лимит сделок на сегодня. сброс через 1ч » отсек 65 сигналов; 81% дошли бы до TP — возможно слишком жёстко.",
+      "n_samples": 65
+    },
+    {
       "filter_id": "skip:на бирже уже открыта позиция zecusdt — н",
       "action": "consider_remove",
       "suggested_weight_mult": 0.0,
@@ -436,14 +444,6 @@
       "confidence": "high",
       "reason_ru": "Фильтр «лимит сделок на сегодня. сброс через 12ч» отсек 28 сигналов; 68% дошли бы до TP — возможно слишком жёстко.",
       "n_samples": 28
-    },
-    {
-      "filter_id": "skip:лимит сделок на сегодня. сброс через 1ч ",
-      "action": "consider_remove",
-      "suggested_weight_mult": 0.0,
-      "confidence": "high",
-      "reason_ru": "Фильтр «лимит сделок на сегодня. сброс через 1ч » отсек 26 сигналов; 100% дошли бы до TP — возможно слишком жёстко.",
-      "n_samples": 26
     },
     {
       "filter_id": "skip:дневной лимит убытка $35.89 (лимит $15).",
@@ -519,16 +519,6 @@
     }
   ],
   "skip_filter_reviews": [
-    {
-      "skip_bucket": "лимит сделок на сегодня. сброс через 1ч ",
-      "n_total": 26,
-      "n_virtual_profit": 2,
-      "n_virtual_loss": 0,
-      "n_virtual_neutral": 24,
-      "virtual_tp_rate_pct": 100.0,
-      "recommendation": "consider_relax",
-      "reason_ru": "Фильтр «лимит сделок на сегодня. сброс через 1ч » отсек 26 сигналов; 100% дошли бы до TP — возможно слишком жёстко."
-    },
     {
       "skip_bucket": "дневной лимит убытка $35.89 (лимит $15).",
       "n_total": 25,
@@ -628,6 +618,16 @@
       "virtual_tp_rate_pct": 85.3,
       "recommendation": "consider_relax",
       "reason_ru": "Фильтр «на бирже уже открыта позиция solusdt — н» отсек 67 сигналов; 85% дошли бы до TP — возможно слишком жёстко."
+    },
+    {
+      "skip_bucket": "лимит сделок на сегодня. сброс через 1ч ",
+      "n_total": 65,
+      "n_virtual_profit": 13,
+      "n_virtual_loss": 3,
+      "n_virtual_neutral": 49,
+      "virtual_tp_rate_pct": 81.2,
+      "recommendation": "consider_relax",
+      "reason_ru": "Фильтр «лимит сделок на сегодня. сброс через 1ч » отсек 65 сигналов; 81% дошли бы до TP — возможно слишком жёстко."
     },
     {
       "skip_bucket": "дневной лимит убытка 32.4% (лимит 5%). н",
@@ -1031,15 +1031,15 @@
     },
     {
       "skip_bucket": "на бирже уже открыта позиция mantausdt —",
-      "n_total": 3,
+      "n_total": 4,
       "n_virtual_profit": 0,
       "n_virtual_loss": 1,
-      "n_virtual_neutral": 2,
+      "n_virtual_neutral": 3,
       "virtual_tp_rate_pct": 0.0,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «на бирже уже открыта позиция mantausdt —» — нужно больше данных."
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-28T23:17:13.470658+00:00"
+  "generated_at": "2026-06-28T23:25:15.725952+00:00"
 }
