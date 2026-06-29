@@ -7,7 +7,7 @@
   "outcome_counts": {
     "profit": 785,
     "loss": 785,
-    "neutral": 2355
+    "neutral": 2315
   },
   "rules": [
     {
@@ -402,8 +402,8 @@
       "action": "consider_remove",
       "suggested_weight_mult": 0.0,
       "confidence": "high",
-      "reason_ru": "Фильтр «на бирже уже открыта позиция btcusdt — н» отсек 295 сигналов; 67% дошли бы до TP — возможно слишком жёстко.",
-      "n_samples": 295
+      "reason_ru": "Фильтр «на бирже уже открыта позиция btcusdt — н» отсек 290 сигналов; 67% дошли бы до TP — возможно слишком жёстко.",
+      "n_samples": 290
     },
     {
       "filter_id": "skip:на бирже уже открыта позиция ethusdt — н",
@@ -422,20 +422,20 @@
       "n_samples": 65
     },
     {
-      "filter_id": "skip:на бирже уже открыта позиция solusdt — н",
-      "action": "consider_remove",
-      "suggested_weight_mult": 0.0,
-      "confidence": "high",
-      "reason_ru": "Фильтр «на бирже уже открыта позиция solusdt — н» отсек 53 сигналов; 85% дошли бы до TP — возможно слишком жёстко.",
-      "n_samples": 53
-    },
-    {
       "filter_id": "skip:на бирже уже открыта позиция zecusdt — н",
       "action": "consider_remove",
       "suggested_weight_mult": 0.0,
       "confidence": "high",
       "reason_ru": "Фильтр «на бирже уже открыта позиция zecusdt — н» отсек 52 сигналов; 91% дошли бы до TP — возможно слишком жёстко.",
       "n_samples": 52
+    },
+    {
+      "filter_id": "skip:на бирже уже открыта позиция solusdt — н",
+      "action": "consider_remove",
+      "suggested_weight_mult": 0.0,
+      "confidence": "high",
+      "reason_ru": "Фильтр «на бирже уже открыта позиция solusdt — н» отсек 48 сигналов; 85% дошли бы до TP — возможно слишком жёстко.",
+      "n_samples": 48
     },
     {
       "filter_id": "skip:лимит сделок на сегодня. сброс через 12ч",
@@ -601,13 +601,13 @@
     },
     {
       "skip_bucket": "на бирже уже открыта позиция solusdt — н",
-      "n_total": 53,
+      "n_total": 48,
       "n_virtual_profit": 29,
       "n_virtual_loss": 5,
-      "n_virtual_neutral": 19,
+      "n_virtual_neutral": 14,
       "virtual_tp_rate_pct": 85.3,
       "recommendation": "consider_relax",
-      "reason_ru": "Фильтр «на бирже уже открыта позиция solusdt — н» отсек 53 сигналов; 85% дошли бы до TP — возможно слишком жёстко."
+      "reason_ru": "Фильтр «на бирже уже открыта позиция solusdt — н» отсек 48 сигналов; 85% дошли бы до TP — возможно слишком жёстко."
     },
     {
       "skip_bucket": "лимит сделок на сегодня. сброс через 1ч ",
@@ -631,13 +631,13 @@
     },
     {
       "skip_bucket": "на бирже уже открыта позиция btcusdt — н",
-      "n_total": 295,
+      "n_total": 290,
       "n_virtual_profit": 36,
       "n_virtual_loss": 18,
-      "n_virtual_neutral": 241,
+      "n_virtual_neutral": 236,
       "virtual_tp_rate_pct": 66.7,
       "recommendation": "consider_relax",
-      "reason_ru": "Фильтр «на бирже уже открыта позиция btcusdt — н» отсек 295 сигналов; 67% дошли бы до TP — возможно слишком жёстко."
+      "reason_ru": "Фильтр «на бирже уже открыта позиция btcusdt — н» отсек 290 сигналов; 67% дошли бы до TP — возможно слишком жёстко."
     },
     {
       "skip_bucket": "на бирже уже открыта позиция magmausdt —",
@@ -701,10 +701,10 @@
     },
     {
       "skip_bucket": "supervisor",
-      "n_total": 1905,
+      "n_total": 1875,
       "n_virtual_profit": 444,
       "n_virtual_loss": 474,
-      "n_virtual_neutral": 987,
+      "n_virtual_neutral": 957,
       "virtual_tp_rate_pct": 48.4,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
@@ -1021,5 +1021,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-29T17:47:37.415508+00:00"
+  "generated_at": "2026-06-29T17:49:39.972405+00:00"
 }
