@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-29T10:04:12.338203+00:00",
+  "updated_at": "2026-06-29T10:06:14.991945+00:00",
   "source": "AGENT-WORLD",
   "host": "snapshots-s-2vcpu-4gb-120gb-intel-fra1",
-  "fingerprint": "05cfe9bf00a3f55c",
+  "fingerprint": "aaf7421f6325efaa",
   "lookback_hours": 336.0,
   "repo": "git@github.com:gogi-eng/Analise_Hermes.git"
 }
