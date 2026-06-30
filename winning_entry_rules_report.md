@@ -1,10 +1,10 @@
 # Анализ входов: TP, убытки, безубыток
 
-Период: **336 ч** | Сгенерировано: 2026-06-30T18:25:26.444256+00:00
+Период: **336 ч** | Сгенерировано: 2026-06-30T18:33:29.071233+00:00
 
 ## Сводка исходов
 - **Профит:** 785
-- **Убыток:** 828
+- **Убыток:** 827
 - **Безубыток / нейтраль:** 2319
 - TP (вирт + биржа): **785** (вирт 664, биржа 121)
 
@@ -33,18 +33,18 @@
 - **дневной лимит убытка 13.0% (лимит 5%). н**: n=11, вирт.TP=88% (+7/−1/≈3) — Фильтр «дневной лимит убытка 13.0% (лимит 5%). н» отсек 11 сигналов; 88% дошли бы до TP — возможно слишком жёстко.
 
 ## Индикаторы и soft-rules (WR при срабатывании)
-- `regime_trend` (soft_rule): WR **42%** (lift -3%), +5/−7/≈2
-- `adx_strong` (soft_rule): WR **40%** (lift -4%), +4/−6/≈2
-- `atr_sweet` (soft_rule): WR **37%** (lift -8%), +7/−12/≈4
-- `volume_2x` (soft_rule): WR **37%** (lift -8%), +7/−12/≈4
-- `adx_ok` (soft_rule): WR **35%** (lift -9%), +6/−11/≈4
+- `regime_trend` (soft_rule): WR **46%** (lift +1%), +5/−6/≈2
+- `adx_strong` (soft_rule): WR **44%** (lift -0%), +4/−5/≈2
+- `atr_sweet` (soft_rule): WR **39%** (lift -6%), +7/−11/≈4
+- `volume_2x` (soft_rule): WR **39%** (lift -6%), +7/−11/≈4
+- `adx_ok` (soft_rule): WR **38%** (lift -7%), +6/−10/≈4
+- `spread_wide` (soft_rule): WR **33%** (lift -11%), +2/−4/≈1
 - `regime_chop` (soft_rule): WR **29%** (lift -16%), +2/−5/≈2
-- `spread_wide` (soft_rule): WR **29%** (lift -16%), +2/−5/≈1
-- `normalized_imbalance_high` (indicator): WR **22%** (lift -22%), +2/−7/≈3
-- `atr_pct_low` (indicator): WR **25%** (lift -19%), +2/−6/≈3
-- `rsi_low` (indicator): WR **25%** (lift -19%), +2/−6/≈3
-- `local_hour_low` (indicator): WR **25%** (lift -19%), +2/−6/≈3
-- `volume_24h_usdt_high` (indicator): WR **25%** (lift -19%), +2/−6/≈4
+- `atr_pct_low` (indicator): WR **25%** (lift -20%), +2/−6/≈3
+- `rsi_low` (indicator): WR **25%** (lift -20%), +2/−6/≈3
+- `normalized_imbalance_high` (indicator): WR **25%** (lift -20%), +2/−6/≈3
+- `local_hour_low` (indicator): WR **29%** (lift -16%), +2/−5/≈3
+- `volume_24h_usdt_high` (indicator): WR **29%** (lift -16%), +2/−5/≈4
 
 ## Пропущенные, но дошли бы до TP
 - **supervisor**: 433
