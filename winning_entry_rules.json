@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 787,
-  "tp_skipped_virtual": 664,
+  "tp_winners": 799,
+  "tp_skipped_virtual": 676,
   "tp_opened_real": 123,
-  "sl_losers": 676,
+  "sl_losers": 680,
   "outcome_counts": {
-    "profit": 787,
-    "loss": 828,
-    "neutral": 2320
+    "profit": 799,
+    "loss": 832,
+    "neutral": 2344
   },
   "rules": [
     {
@@ -120,13 +120,13 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.9183,
+    "confidence": 0.9191,
     "atr_pct": 0.6611,
     "adx": 31.5868,
     "rsi": 55.1369,
     "normalized_imbalance": -0.7652,
     "spread_pct": 0.0016,
-    "rr_at_entry": 2.1406,
+    "rr_at_entry": 2.1755,
     "soft_score": 100.0,
     "local_hour": 13.0,
     "volume_24h_usdt": 494724360.64
@@ -139,7 +139,7 @@
     "дневной лимит убытка $35.89 (лимит $15).": 14,
     "лимит сделок на сегодня. сброс через 12ч": 14,
     "entry_guard": 13,
-    "лимит сделок на сегодня. сброс через 1ч ": 11
+    "лимит сделок на сегодня. сброс через 4ч ": 12
   },
   "filter_impacts": [
     {
@@ -422,6 +422,14 @@
       "n_samples": 48
     },
     {
+      "filter_id": "skip:лимит сделок на сегодня. сброс через 4ч ",
+      "action": "consider_remove",
+      "suggested_weight_mult": 0.0,
+      "confidence": "high",
+      "reason_ru": "Фильтр «лимит сделок на сегодня. сброс через 4ч » отсек 40 сигналов; 75% дошли бы до TP — возможно слишком жёстко.",
+      "n_samples": 40
+    },
+    {
       "filter_id": "skip:лимит сделок на сегодня. сброс через 1ч ",
       "action": "consider_remove",
       "suggested_weight_mult": 0.0,
@@ -508,14 +516,6 @@
       "confidence": "high",
       "reason_ru": "Фильтр «дневной лимит убытка $32.87 (лимит $15).» отсек 6 сигналов; 100% дошли бы до TP — возможно слишком жёстко.",
       "n_samples": 6
-    },
-    {
-      "filter_id": "skip:дневной лимит убытка 16.3% (лимит 5%). н",
-      "action": "consider_remove",
-      "suggested_weight_mult": 0.0,
-      "confidence": "high",
-      "reason_ru": "Фильтр «дневной лимит убытка 16.3% (лимит 5%). н» отсек 3 сигналов; 100% дошли бы до TP — возможно слишком жёстко.",
-      "n_samples": 3
     }
   ],
   "skip_filter_reviews": [
@@ -628,6 +628,16 @@
       "virtual_tp_rate_pct": 78.6,
       "recommendation": "consider_relax",
       "reason_ru": "Фильтр «лимит сделок на сегодня. сброс через 1ч » отсек 39 сигналов; 79% дошли бы до TP — возможно слишком жёстко."
+    },
+    {
+      "skip_bucket": "лимит сделок на сегодня. сброс через 4ч ",
+      "n_total": 40,
+      "n_virtual_profit": 12,
+      "n_virtual_loss": 4,
+      "n_virtual_neutral": 24,
+      "virtual_tp_rate_pct": 75.0,
+      "recommendation": "consider_relax",
+      "reason_ru": "Фильтр «лимит сделок на сегодня. сброс через 4ч » отсек 40 сигналов; 75% дошли бы до TP — возможно слишком жёстко."
     },
     {
       "skip_bucket": "дневной лимит убытка 32.4% (лимит 5%). н",
@@ -1031,5 +1041,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-30T20:21:41.147730+00:00"
+  "generated_at": "2026-06-30T20:23:43.609065+00:00"
 }
