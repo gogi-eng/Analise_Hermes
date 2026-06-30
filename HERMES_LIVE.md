@@ -1,7 +1,7 @@
 ---
 hermes_feed: true
-generated_at: 2026-06-30T12:21:39.949811+00:00
-fingerprint: d8258c729084ec6b
+generated_at: 2026-06-30T12:25:42.606027+00:00
+fingerprint: aba6021fed0eafd2
 source: AGENT-WORLD
 lookback_hours: 336.0
 host: snapshots-s-2vcpu-4gb-120gb-intel-fra1
@@ -13,17 +13,17 @@ host: snapshots-s-2vcpu-4gb-120gb-intel-fra1
 > Рекомендации — только предложения. ZeroOne: **максимум одна** правка config за раз.
 > Не меняй `config.yaml` и не ставь ордера без явной просьбы пользователя.
 
-**Обновлено:** 2026-06-30T12:21:39.949811+00:00 | окно **336 ч** | id `d8258c729084ec6b`
+**Обновлено:** 2026-06-30T12:25:42.606027+00:00 | окно **336 ч** | id `aba6021fed0eafd2`
 
 ## Сводка исходов
 
 | Исход | Кол-во |
 |-------|--------|
-| Профит | 799 |
+| Профит | 800 |
 | Убыток | 817 |
-| Безубыток | 2307 |
+| Безубыток | 2308 |
 
-TP всего: **799** (вирт 682, биржа 117) | SL/убытки: **668**
+TP всего: **800** (вирт 682, биржа 118) | SL/убытки: **668**
 
 ## ⚡ Одна гипотеза (ZeroOne) — приоритет для агента
 
@@ -55,11 +55,11 @@ TP всего: **799** (вирт 682, биржа 117) | SL/убытки: **668**
 
 ## Топ правила удачного входа (TP)
 
-1. `volatility` == `normal` — В 100% удачных TP volatility=normal (у SL 0%)
-2. `entry_zone` == `no_zone` — В 100% удачных TP entry_zone=no_zone (у SL 0%)
-3. `soft_label` == `favorable` — В 100% удачных TP soft_label=favorable (у SL 0%)
-4. `atr_pct` >= `0.2756` — У 83% удачных TP atr_pct >= 0.2756 (медиана 0.618, у SL 0%)
-5. `adx` >= `19.441` — У 83% удачных TP adx >= 19.441 (медиана 32.24, у SL 0%)
+1. `local_hour` >= `4` — У 100% удачных TP local_hour >= 4 (медиана 13, у SL 0%)
+2. `volatility` == `normal` — В 100% удачных TP volatility=normal (у SL 0%)
+3. `entry_zone` == `no_zone` — В 100% удачных TP entry_zone=no_zone (у SL 0%)
+4. `atr_pct` >= `0.2804` — У 86% удачных TP atr_pct >= 0.2804 (медиана 0.6611, у SL 0%)
+5. `normalized_imbalance` >= `-0.9913` — У 86% удачных TP normalized_imbalance >= -0.9913 (медиана -0.7652, у SL 0%)
 
 ## Пропущено, но дошло бы до TP
 
