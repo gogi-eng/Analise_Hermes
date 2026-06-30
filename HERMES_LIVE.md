@@ -1,7 +1,7 @@
 ---
 hermes_feed: true
-generated_at: 2026-06-30T00:55:04.810100+00:00
-fingerprint: b6818d2806c7dfd0
+generated_at: 2026-06-30T00:57:07.519600+00:00
+fingerprint: 683647360ae47820
 source: AGENT-WORLD
 lookback_hours: 336.0
 host: snapshots-s-2vcpu-4gb-120gb-intel-fra1
@@ -13,7 +13,7 @@ host: snapshots-s-2vcpu-4gb-120gb-intel-fra1
 > Рекомендации — только предложения. ZeroOne: **максимум одна** правка config за раз.
 > Не меняй `config.yaml` и не ставь ордера без явной просьбы пользователя.
 
-**Обновлено:** 2026-06-30T00:55:04.810100+00:00 | окно **336 ч** | id `b6818d2806c7dfd0`
+**Обновлено:** 2026-06-30T00:57:07.519600+00:00 | окно **336 ч** | id `683647360ae47820`
 
 ## Сводка исходов
 
