@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 786,
-  "tp_skipped_virtual": 669,
+  "tp_winners": 799,
+  "tp_skipped_virtual": 682,
   "tp_opened_real": 117,
-  "sl_losers": 666,
+  "sl_losers": 668,
   "outcome_counts": {
-    "profit": 786,
-    "loss": 814,
-    "neutral": 2282
+    "profit": 799,
+    "loss": 816,
+    "neutral": 2307
   },
   "rules": [
     {
@@ -120,19 +120,19 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.9212,
+    "confidence": 0.92,
     "atr_pct": 0.618,
     "adx": 32.241,
     "rsi": 52.4929,
     "normalized_imbalance": -0.75,
     "spread_pct": 0.0015,
-    "rr_at_entry": 2.1441,
+    "rr_at_entry": 2.1406,
     "soft_score": 100.0,
     "local_hour": 14.5,
     "volume_24h_usdt": 327315153.065
   },
   "top_skip_reasons_on_tp": {
-    "supervisor": 437,
+    "supervisor": 450,
     "на бирже уже открыта позиция btcusdt — н": 36,
     "на бирже уже открыта позиция solusdt — н": 29,
     "на бирже уже открыта позиция ethusdt — н": 23,
@@ -711,11 +711,11 @@
     },
     {
       "skip_bucket": "supervisor",
-      "n_total": 1884,
-      "n_virtual_profit": 437,
-      "n_virtual_loss": 489,
-      "n_virtual_neutral": 958,
-      "virtual_tp_rate_pct": 47.2,
+      "n_total": 1914,
+      "n_virtual_profit": 450,
+      "n_virtual_loss": 491,
+      "n_virtual_neutral": 973,
+      "virtual_tp_rate_pct": 47.8,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
@@ -791,10 +791,10 @@
     },
     {
       "skip_bucket": "на бирже уже открыта позиция xauusdt — н",
-      "n_total": 21,
+      "n_total": 31,
       "n_virtual_profit": 1,
       "n_virtual_loss": 3,
-      "n_virtual_neutral": 17,
+      "n_virtual_neutral": 27,
       "virtual_tp_rate_pct": 25.0,
       "recommendation": "keep_strict",
       "reason_ru": "Фильтр «на бирже уже открыта позиция xauusdt — н» спасает от SL в 75% случаев — оставить."
@@ -1031,5 +1031,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-30T11:44:54.797519+00:00"
+  "generated_at": "2026-06-30T11:46:57.625066+00:00"
 }
