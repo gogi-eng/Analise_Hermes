@@ -1,12 +1,12 @@
 {
   "hours": 336.0,
-  "tp_winners": 800,
+  "tp_winners": 801,
   "tp_skipped_virtual": 682,
-  "tp_opened_real": 118,
+  "tp_opened_real": 119,
   "sl_losers": 668,
   "outcome_counts": {
-    "profit": 800,
-    "loss": 817,
+    "profit": 801,
+    "loss": 818,
     "neutral": 2308
   },
   "rules": [
@@ -120,7 +120,7 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.9199,
+    "confidence": 0.9198,
     "atr_pct": 0.6611,
     "adx": 31.5868,
     "rsi": 55.1369,
@@ -151,7 +151,7 @@
       "win_rate_pct": 41.7,
       "avg_pnl_pct": 1.1509,
       "baseline_win_rate_pct": 44.2,
-      "lift_pct": -2.5
+      "lift_pct": -2.6
     },
     {
       "filter_id": "adx_strong",
@@ -217,7 +217,7 @@
       "win_rate_pct": 28.6,
       "avg_pnl_pct": -31.9338,
       "baseline_win_rate_pct": 44.2,
-      "lift_pct": -15.6
+      "lift_pct": -15.7
     },
     {
       "filter_id": "atr_pct_low",
@@ -261,7 +261,7 @@
       "win_rate_pct": 28.6,
       "avg_pnl_pct": -0.8247,
       "baseline_win_rate_pct": 44.2,
-      "lift_pct": -15.6
+      "lift_pct": -15.7
     },
     {
       "filter_id": "volume_24h_usdt_high",
@@ -272,7 +272,7 @@
       "win_rate_pct": 28.6,
       "avg_pnl_pct": -0.0404,
       "baseline_win_rate_pct": 44.2,
-      "lift_pct": -15.6
+      "lift_pct": -15.7
     },
     {
       "filter_id": "adx_low",
@@ -360,7 +360,7 @@
       "win_rate_pct": 45.5,
       "avg_pnl_pct": -19.916,
       "baseline_win_rate_pct": 44.2,
-      "lift_pct": 1.3
+      "lift_pct": 1.2
     },
     {
       "filter_id": "volume_24h_usdt_low",
@@ -371,7 +371,7 @@
       "win_rate_pct": 45.5,
       "avg_pnl_pct": -22.4359,
       "baseline_win_rate_pct": 44.2,
-      "lift_pct": 1.3
+      "lift_pct": 1.2
     },
     {
       "filter_id": "adx_high",
@@ -1031,5 +1031,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-30T12:31:50.732476+00:00"
+  "generated_at": "2026-06-30T12:33:53.191444+00:00"
 }
