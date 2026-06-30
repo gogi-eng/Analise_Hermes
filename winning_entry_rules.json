@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 799,
-  "tp_skipped_virtual": 683,
+  "tp_winners": 778,
+  "tp_skipped_virtual": 662,
   "tp_opened_real": 116,
-  "sl_losers": 653,
+  "sl_losers": 651,
   "outcome_counts": {
-    "profit": 799,
-    "loss": 798,
-    "neutral": 2323
+    "profit": 778,
+    "loss": 796,
+    "neutral": 2306
   },
   "rules": [
     {
@@ -120,22 +120,22 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.9222,
+    "confidence": 0.9223,
     "atr_pct": 0.5748,
     "adx": 31.5868,
     "rsi": 47.3306,
     "normalized_imbalance": -0.7347,
     "spread_pct": 0.0016,
-    "rr_at_entry": 2.1927,
+    "rr_at_entry": 2.1406,
     "soft_score": 100.0,
     "local_hour": 13.0,
     "volume_24h_usdt": 199933282.85
   },
   "top_skip_reasons_on_tp": {
-    "supervisor": 451,
+    "supervisor": 431,
     "на бирже уже открыта позиция btcusdt — н": 36,
     "на бирже уже открыта позиция solusdt — н": 29,
-    "на бирже уже открыта позиция ethusdt — н": 24,
+    "на бирже уже открыта позиция ethusdt — н": 23,
     "дневной лимит убытка $35.89 (лимит $15).": 14,
     "лимит сделок на сегодня. сброс через 12ч": 14,
     "entry_guard": 13,
@@ -691,11 +691,11 @@
     },
     {
       "skip_bucket": "на бирже уже открыта позиция ethusdt — н",
-      "n_total": 136,
-      "n_virtual_profit": 24,
+      "n_total": 129,
+      "n_virtual_profit": 23,
       "n_virtual_loss": 19,
-      "n_virtual_neutral": 93,
-      "virtual_tp_rate_pct": 55.8,
+      "n_virtual_neutral": 87,
+      "virtual_tp_rate_pct": 54.8,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «на бирже уже открыта позиция ethusdt — н» — нужно больше данных."
     },
@@ -711,11 +711,11 @@
     },
     {
       "skip_bucket": "supervisor",
-      "n_total": 1894,
-      "n_virtual_profit": 451,
-      "n_virtual_loss": 477,
-      "n_virtual_neutral": 966,
-      "virtual_tp_rate_pct": 48.6,
+      "n_total": 1861,
+      "n_virtual_profit": 431,
+      "n_virtual_loss": 475,
+      "n_virtual_neutral": 955,
+      "virtual_tp_rate_pct": 47.6,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
@@ -1041,5 +1041,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-30T02:47:16.742346+00:00"
+  "generated_at": "2026-06-30T02:49:19.475301+00:00"
 }
