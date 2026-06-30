@@ -7,7 +7,7 @@
   "outcome_counts": {
     "profit": 798,
     "loss": 832,
-    "neutral": 2341
+    "neutral": 2301
   },
   "rules": [
     {
@@ -402,8 +402,8 @@
       "action": "consider_remove",
       "suggested_weight_mult": 0.0,
       "confidence": "high",
-      "reason_ru": "Фильтр «на бирже уже открыта позиция btcusdt — н» отсек 311 сигналов; 67% дошли бы до TP — возможно слишком жёстко.",
-      "n_samples": 311
+      "reason_ru": "Фильтр «на бирже уже открыта позиция btcusdt — н» отсек 299 сигналов; 67% дошли бы до TP — возможно слишком жёстко.",
+      "n_samples": 299
     },
     {
       "filter_id": "skip:на бирже уже открыта позиция zecusdt — н",
@@ -651,13 +651,13 @@
     },
     {
       "skip_bucket": "на бирже уже открыта позиция btcusdt — н",
-      "n_total": 311,
+      "n_total": 299,
       "n_virtual_profit": 36,
       "n_virtual_loss": 18,
-      "n_virtual_neutral": 257,
+      "n_virtual_neutral": 245,
       "virtual_tp_rate_pct": 66.7,
       "recommendation": "consider_relax",
-      "reason_ru": "Фильтр «на бирже уже открыта позиция btcusdt — н» отсек 311 сигналов; 67% дошли бы до TP — возможно слишком жёстко."
+      "reason_ru": "Фильтр «на бирже уже открыта позиция btcusdt — н» отсек 299 сигналов; 67% дошли бы до TP — возможно слишком жёстко."
     },
     {
       "skip_bucket": "на бирже уже открыта позиция magmausdt —",
@@ -721,10 +721,10 @@
     },
     {
       "skip_bucket": "supervisor",
-      "n_total": 1916,
+      "n_total": 1889,
       "n_virtual_profit": 433,
       "n_virtual_loss": 499,
-      "n_virtual_neutral": 984,
+      "n_virtual_neutral": 957,
       "virtual_tp_rate_pct": 46.5,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
@@ -841,10 +841,10 @@
     },
     {
       "skip_bucket": "лимит сделок на сегодня. сброс через 5ч ",
-      "n_total": 41,
+      "n_total": 40,
       "n_virtual_profit": 0,
       "n_virtual_loss": 0,
-      "n_virtual_neutral": 41,
+      "n_virtual_neutral": 40,
       "virtual_tp_rate_pct": 0.0,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «лимит сделок на сегодня. сброс через 5ч » — нужно больше данных."
@@ -1041,5 +1041,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-30T21:49:15.674111+00:00"
+  "generated_at": "2026-06-30T21:51:18.375124+00:00"
 }
