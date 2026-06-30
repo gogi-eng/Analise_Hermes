@@ -7,7 +7,7 @@
   "outcome_counts": {
     "profit": 780,
     "loss": 804,
-    "neutral": 2335
+    "neutral": 2294
   },
   "rules": [
     {
@@ -840,26 +840,6 @@
       "reason_ru": "Смешанный эффект фильтра «лимит сделок на сегодня. сброс через 5ч » — нужно больше данных."
     },
     {
-      "skip_bucket": "на бирже уже открыта позиция hypeusdt — ",
-      "n_total": 39,
-      "n_virtual_profit": 0,
-      "n_virtual_loss": 4,
-      "n_virtual_neutral": 35,
-      "virtual_tp_rate_pct": 0.0,
-      "recommendation": "keep_strict",
-      "reason_ru": "Фильтр «на бирже уже открыта позиция hypeusdt — » спасает от SL в 100% случаев — оставить."
-    },
-    {
-      "skip_bucket": "дневной лимит убытка 9.7% (лимит 5%). но",
-      "n_total": 25,
-      "n_virtual_profit": 0,
-      "n_virtual_loss": 0,
-      "n_virtual_neutral": 25,
-      "virtual_tp_rate_pct": 0.0,
-      "recommendation": "review",
-      "reason_ru": "Смешанный эффект фильтра «дневной лимит убытка 9.7% (лимит 5%). но» — нужно больше данных."
-    },
-    {
       "skip_bucket": "дневной лимит убытка 19.2% (лимит 5%). н",
       "n_total": 25,
       "n_virtual_profit": 0,
@@ -878,6 +858,16 @@
       "virtual_tp_rate_pct": 0.0,
       "recommendation": "keep_strict",
       "reason_ru": "Фильтр «на бирже уже открыта позиция soxlusdt — » спасает от SL в 100% случаев — оставить."
+    },
+    {
+      "skip_bucket": "на бирже уже открыта позиция hypeusdt — ",
+      "n_total": 23,
+      "n_virtual_profit": 0,
+      "n_virtual_loss": 4,
+      "n_virtual_neutral": 19,
+      "virtual_tp_rate_pct": 0.0,
+      "recommendation": "keep_strict",
+      "reason_ru": "Фильтр «на бирже уже открыта позиция hypeusdt — » спасает от SL в 100% случаев — оставить."
     },
     {
       "skip_bucket": "дневной лимит убытка 10.4% (лимит 5%). н",
@@ -1041,5 +1031,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-30T06:03:08.949713+00:00"
+  "generated_at": "2026-06-30T06:23:11.782060+00:00"
 }
