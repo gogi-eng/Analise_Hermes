@@ -1,11 +1,11 @@
 # Анализ входов: TP, убытки, безубыток
 
-Период: **336 ч** | Сгенерировано: 2026-06-30T02:32:57.726832+00:00
+Период: **336 ч** | Сгенерировано: 2026-06-30T02:35:00.410602+00:00
 
 ## Сводка исходов
 - **Профит:** 799
 - **Убыток:** 798
-- **Безубыток / нейтраль:** 2324
+- **Безубыток / нейтраль:** 2323
 - TP (вирт + биржа): **799** (вирт 683, биржа 116)
 
 ## Рекомендации по весам и фильтрам
@@ -33,17 +33,17 @@
 - **дневной лимит убытка 13.0% (лимит 5%). н**: n=11, вирт.TP=88% (+7/−1/≈3) — Фильтр «дневной лимит убытка 13.0% (лимит 5%). н» отсек 11 сигналов; 88% дошли бы до TP — возможно слишком жёстко.
 
 ## Индикаторы и soft-rules (WR при срабатывании)
-- `adx_ok` (soft_rule): WR **37%** (lift -8%), +7/−12/≈5
-- `regime_trend` (soft_rule): WR **36%** (lift -9%), +5/−9/≈3
-- `atr_sweet` (soft_rule): WR **35%** (lift -9%), +7/−13/≈5
-- `volume_2x` (soft_rule): WR **35%** (lift -9%), +7/−13/≈5
+- `adx_ok` (soft_rule): WR **37%** (lift -8%), +7/−12/≈4
+- `regime_trend` (soft_rule): WR **36%** (lift -9%), +5/−9/≈2
+- `atr_sweet` (soft_rule): WR **35%** (lift -9%), +7/−13/≈4
+- `volume_2x` (soft_rule): WR **35%** (lift -9%), +7/−13/≈4
 - `regime_chop` (soft_rule): WR **33%** (lift -11%), +2/−4/≈2
-- `adx_strong` (soft_rule): WR **33%** (lift -11%), +4/−8/≈3
+- `adx_strong` (soft_rule): WR **33%** (lift -11%), +4/−8/≈2
 - `spread_wide` (soft_rule): WR **14%** (lift -30%), +1/−6/≈1
-- `local_hour_low` (indicator): WR **12%** (lift -32%), +1/−7/≈4
-- `normalized_imbalance_high` (indicator): WR **22%** (lift -22%), +2/−7/≈4
-- `atr_pct_low` (indicator): WR **25%** (lift -19%), +2/−6/≈4
-- `volume_24h_usdt_high` (indicator): WR **25%** (lift -19%), +2/−6/≈5
+- `local_hour_low` (indicator): WR **12%** (lift -32%), +1/−7/≈3
+- `atr_pct_low` (indicator): WR **22%** (lift -22%), +2/−7/≈3
+- `normalized_imbalance_high` (indicator): WR **22%** (lift -22%), +2/−7/≈3
+- `volume_24h_usdt_high` (indicator): WR **25%** (lift -19%), +2/−6/≈4
 - `adx_low` (indicator): WR **30%** (lift -14%), +3/−7/≈2
 
 ## Пропущенные, но дошли бы до TP
