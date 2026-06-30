@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 783,
-  "tp_skipped_virtual": 663,
+  "tp_winners": 784,
+  "tp_skipped_virtual": 664,
   "tp_opened_real": 120,
-  "sl_losers": 668,
+  "sl_losers": 676,
   "outcome_counts": {
-    "profit": 783,
-    "loss": 821,
-    "neutral": 2290
+    "profit": 784,
+    "loss": 829,
+    "neutral": 2321
   },
   "rules": [
     {
@@ -120,19 +120,19 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.9187,
+    "confidence": 0.9186,
     "atr_pct": 0.6611,
     "adx": 31.5868,
     "rsi": 55.1369,
     "normalized_imbalance": -0.7652,
     "spread_pct": 0.0016,
-    "rr_at_entry": 2.1441,
+    "rr_at_entry": 2.1406,
     "soft_score": 100.0,
     "local_hour": 13.0,
     "volume_24h_usdt": 494724360.64
   },
   "top_skip_reasons_on_tp": {
-    "supervisor": 432,
+    "supervisor": 433,
     "на бирже уже открыта позиция btcusdt — н": 36,
     "на бирже уже открыта позиция solusdt — н": 29,
     "на бирже уже открыта позиция ethusdt — н": 23,
@@ -711,11 +711,11 @@
     },
     {
       "skip_bucket": "supervisor",
-      "n_total": 1876,
-      "n_virtual_profit": 432,
-      "n_virtual_loss": 491,
-      "n_virtual_neutral": 953,
-      "virtual_tp_rate_pct": 46.8,
+      "n_total": 1916,
+      "n_virtual_profit": 433,
+      "n_virtual_loss": 499,
+      "n_virtual_neutral": 984,
+      "virtual_tp_rate_pct": 46.5,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
@@ -1031,5 +1031,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-06-30T15:15:11.155246+00:00"
+  "generated_at": "2026-06-30T15:17:13.962043+00:00"
 }
