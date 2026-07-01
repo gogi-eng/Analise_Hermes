@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 750,
-  "tp_skipped_virtual": 622,
+  "tp_winners": 751,
+  "tp_skipped_virtual": 623,
   "tp_opened_real": 128,
-  "sl_losers": 703,
+  "sl_losers": 705,
   "outcome_counts": {
-    "profit": 750,
-    "loss": 855,
-    "neutral": 2328
+    "profit": 751,
+    "loss": 857,
+    "neutral": 2365
   },
   "rules": [
     {
@@ -120,13 +120,13 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.9155,
+    "confidence": 0.916,
     "atr_pct": 0.6611,
     "adx": 31.5868,
     "rsi": 55.1369,
     "normalized_imbalance": -0.7652,
     "spread_pct": 0.0016,
-    "rr_at_entry": 2.1622,
+    "rr_at_entry": 2.1675,
     "soft_score": 100.0,
     "local_hour": 13.0,
     "volume_24h_usdt": 494724360.64
@@ -760,6 +760,16 @@
       "reason_ru": "Фильтр «лимит сделок на сегодня. сброс через 3ч » спасает от SL в 64% случаев — оставить."
     },
     {
+      "skip_bucket": "лимит сделок на сегодня. сброс через 7ч ",
+      "n_total": 40,
+      "n_virtual_profit": 1,
+      "n_virtual_loss": 2,
+      "n_virtual_neutral": 37,
+      "virtual_tp_rate_pct": 33.3,
+      "recommendation": "keep_strict",
+      "reason_ru": "Фильтр «лимит сделок на сегодня. сброс через 7ч » спасает от SL в 67% случаев — оставить."
+    },
+    {
       "skip_bucket": "дневной лимит убытка 5.1% (лимит 5%). но",
       "n_total": 18,
       "n_virtual_profit": 1,
@@ -1061,5 +1071,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-07-01T16:51:59.618432+00:00"
+  "generated_at": "2026-07-01T16:54:03.023421+00:00"
 }
