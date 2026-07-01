@@ -3,11 +3,11 @@
   "tp_winners": 692,
   "tp_skipped_virtual": 562,
   "tp_opened_real": 130,
-  "sl_losers": 708,
+  "sl_losers": 728,
   "outcome_counts": {
     "profit": 692,
-    "loss": 868,
-    "neutral": 2389
+    "loss": 888,
+    "neutral": 2409
   },
   "rules": [
     {
@@ -870,6 +870,16 @@
       "reason_ru": "Смешанный эффект фильтра «лимит сделок на сегодня. сброс через 5ч » — нужно больше данных."
     },
     {
+      "skip_bucket": "дневной лимит убытка 8.5% (лимит 5%). но",
+      "n_total": 40,
+      "n_virtual_profit": 0,
+      "n_virtual_loss": 20,
+      "n_virtual_neutral": 20,
+      "virtual_tp_rate_pct": 0.0,
+      "recommendation": "keep_strict",
+      "reason_ru": "Фильтр «дневной лимит убытка 8.5% (лимит 5%). но» спасает от SL в 100% случаев — оставить."
+    },
+    {
       "skip_bucket": "дневной лимит убытка 19.2% (лимит 5%). н",
       "n_total": 25,
       "n_virtual_profit": 0,
@@ -1071,5 +1081,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-07-01T23:49:52.573353+00:00"
+  "generated_at": "2026-07-01T23:55:55.432435+00:00"
 }
