@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 725,
-  "tp_skipped_virtual": 596,
+  "tp_winners": 727,
+  "tp_skipped_virtual": 598,
   "tp_opened_real": 129,
-  "sl_losers": 693,
+  "sl_losers": 712,
   "outcome_counts": {
-    "profit": 725,
-    "loss": 853,
-    "neutral": 2366
+    "profit": 727,
+    "loss": 872,
+    "neutral": 2386
   },
   "rules": [
     {
@@ -126,13 +126,13 @@
     "rsi": 55.1369,
     "normalized_imbalance": -0.7652,
     "spread_pct": 0.0016,
-    "rr_at_entry": 2.2285,
+    "rr_at_entry": 2.2185,
     "soft_score": 100.0,
     "local_hour": 13.0,
     "volume_24h_usdt": 494724360.64
   },
   "top_skip_reasons_on_tp": {
-    "supervisor": 368,
+    "supervisor": 370,
     "на бирже уже открыта позиция solusdt — н": 29,
     "на бирже уже открыта позиция ethusdt — н": 23,
     "на бирже уже открыта позиция btcusdt — н": 19,
@@ -731,11 +731,11 @@
     },
     {
       "skip_bucket": "supervisor",
-      "n_total": 1834,
-      "n_virtual_profit": 368,
-      "n_virtual_loss": 500,
-      "n_virtual_neutral": 966,
-      "virtual_tp_rate_pct": 42.4,
+      "n_total": 1874,
+      "n_virtual_profit": 370,
+      "n_virtual_loss": 519,
+      "n_virtual_neutral": 985,
+      "virtual_tp_rate_pct": 41.6,
       "recommendation": "keep_strict",
       "reason_ru": "Фильтр «supervisor» спасает от SL в 58% случаев — оставить."
     },
@@ -1071,5 +1071,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-07-01T20:18:03.712487+00:00"
+  "generated_at": "2026-07-01T20:24:06.871524+00:00"
 }
