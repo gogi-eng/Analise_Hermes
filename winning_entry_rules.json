@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 779,
-  "tp_skipped_virtual": 653,
+  "tp_winners": 780,
+  "tp_skipped_virtual": 654,
   "tp_opened_real": 126,
-  "sl_losers": 683,
+  "sl_losers": 693,
   "outcome_counts": {
-    "profit": 779,
-    "loss": 834,
-    "neutral": 2270
+    "profit": 780,
+    "loss": 844,
+    "neutral": 2299
   },
   "rules": [
     {
@@ -810,6 +810,16 @@
       "reason_ru": "Фильтр «на бирже уже открыта позиция xauusdt — н» спасает от SL в 75% случаев — оставить."
     },
     {
+      "skip_bucket": "лимит сделок на сегодня. сброс через 14ч",
+      "n_total": 25,
+      "n_virtual_profit": 1,
+      "n_virtual_loss": 3,
+      "n_virtual_neutral": 21,
+      "virtual_tp_rate_pct": 25.0,
+      "recommendation": "keep_strict",
+      "reason_ru": "Фильтр «лимит сделок на сегодня. сброс через 14ч» спасает от SL в 75% случаев — оставить."
+    },
+    {
       "skip_bucket": "дневной лимит убытка 7.9% (лимит 5%). но",
       "n_total": 40,
       "n_virtual_profit": 2,
@@ -930,6 +940,16 @@
       "reason_ru": "Фильтр «дневной лимит убытка 10.0% (лимит 5%). н» спасает от SL в 100% случаев — оставить."
     },
     {
+      "skip_bucket": "лимит сделок на сегодня. сброс через 15ч",
+      "n_total": 15,
+      "n_virtual_profit": 0,
+      "n_virtual_loss": 7,
+      "n_virtual_neutral": 8,
+      "virtual_tp_rate_pct": 0.0,
+      "recommendation": "keep_strict",
+      "reason_ru": "Фильтр «лимит сделок на сегодня. сброс через 15ч» спасает от SL в 100% случаев — оставить."
+    },
+    {
       "skip_bucket": "на бирже уже открыта позиция labusdt — н",
       "n_total": 10,
       "n_virtual_profit": 0,
@@ -1041,5 +1061,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-07-01T09:50:27.133975+00:00"
+  "generated_at": "2026-07-01T09:52:30.552498+00:00"
 }
