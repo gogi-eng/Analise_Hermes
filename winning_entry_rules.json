@@ -3,11 +3,11 @@
   "tp_winners": 780,
   "tp_skipped_virtual": 654,
   "tp_opened_real": 126,
-  "sl_losers": 693,
+  "sl_losers": 709,
   "outcome_counts": {
     "profit": 780,
-    "loss": 844,
-    "neutral": 2306
+    "loss": 860,
+    "neutral": 2330
   },
   "rules": [
     {
@@ -721,13 +721,13 @@
     },
     {
       "skip_bucket": "supervisor",
-      "n_total": 1866,
+      "n_total": 1906,
       "n_virtual_profit": 421,
-      "n_virtual_loss": 502,
-      "n_virtual_neutral": 943,
-      "virtual_tp_rate_pct": 45.6,
-      "recommendation": "review",
-      "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
+      "n_virtual_loss": 518,
+      "n_virtual_neutral": 967,
+      "virtual_tp_rate_pct": 44.8,
+      "recommendation": "keep_strict",
+      "reason_ru": "Фильтр «supervisor» спасает от SL в 55% случаев — оставить."
     },
     {
       "skip_bucket": "zone_entry",
@@ -1061,5 +1061,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-07-01T13:21:14.837966+00:00"
+  "generated_at": "2026-07-01T13:23:17.810532+00:00"
 }
