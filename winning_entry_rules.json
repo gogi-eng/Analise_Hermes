@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 751,
-  "tp_skipped_virtual": 623,
+  "tp_winners": 724,
+  "tp_skipped_virtual": 596,
   "tp_opened_real": 128,
-  "sl_losers": 705,
+  "sl_losers": 693,
   "outcome_counts": {
-    "profit": 751,
-    "loss": 857,
-    "neutral": 2365
+    "profit": 724,
+    "loss": 845,
+    "neutral": 2364
   },
   "rules": [
     {
@@ -120,19 +120,19 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.916,
+    "confidence": 0.9138,
     "atr_pct": 0.6611,
     "adx": 31.5868,
     "rsi": 55.1369,
     "normalized_imbalance": -0.7652,
     "spread_pct": 0.0016,
-    "rr_at_entry": 2.1675,
+    "rr_at_entry": 2.2285,
     "soft_score": 100.0,
     "local_hour": 13.0,
     "volume_24h_usdt": 494724360.64
   },
   "top_skip_reasons_on_tp": {
-    "supervisor": 395,
+    "supervisor": 368,
     "на бирже уже открыта позиция solusdt — н": 29,
     "на бирже уже открыта позиция ethusdt — н": 23,
     "на бирже уже открыта позиция btcusdt — н": 19,
@@ -720,16 +720,6 @@
       "reason_ru": "Смешанный эффект фильтра «дневной лимит убытка $13.12 (лимит $10).» — нужно больше данных."
     },
     {
-      "skip_bucket": "supervisor",
-      "n_total": 1874,
-      "n_virtual_profit": 395,
-      "n_virtual_loss": 512,
-      "n_virtual_neutral": 967,
-      "virtual_tp_rate_pct": 43.6,
-      "recommendation": "keep_strict",
-      "reason_ru": "Фильтр «supervisor» спасает от SL в 56% случаев — оставить."
-    },
-    {
       "skip_bucket": "zone_entry",
       "n_total": 20,
       "n_virtual_profit": 6,
@@ -738,6 +728,16 @@
       "virtual_tp_rate_pct": 42.9,
       "recommendation": "keep_strict",
       "reason_ru": "Фильтр «zone_entry» спасает от SL в 57% случаев — оставить."
+    },
+    {
+      "skip_bucket": "supervisor",
+      "n_total": 1834,
+      "n_virtual_profit": 368,
+      "n_virtual_loss": 500,
+      "n_virtual_neutral": 966,
+      "virtual_tp_rate_pct": 42.4,
+      "recommendation": "keep_strict",
+      "reason_ru": "Фильтр «supervisor» спасает от SL в 58% случаев — оставить."
     },
     {
       "skip_bucket": "дневной лимит убытка $40.47 (лимит $15).",
@@ -1071,5 +1071,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-07-01T17:02:15.296140+00:00"
+  "generated_at": "2026-07-01T17:04:18.278021+00:00"
 }
