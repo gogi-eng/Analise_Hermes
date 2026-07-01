@@ -1,10 +1,10 @@
 # Анализ входов: TP, убытки, безубыток
 
-Период: **336 ч** | Сгенерировано: 2026-07-01T17:12:24.121723+00:00
+Период: **336 ч** | Сгенерировано: 2026-07-01T17:14:27.218100+00:00
 
 ## Сводка исходов
 - **Профит:** 724
-- **Убыток:** 845
+- **Убыток:** 846
 - **Безубыток / нейтраль:** 2363
 - TP (вирт + биржа): **724** (вирт 596, биржа 128)
 
@@ -40,9 +40,9 @@
 - `adx_ok` (soft_rule): WR **35%** (lift -10%), +6/−11/≈3
 - `spread_wide` (soft_rule): WR **29%** (lift -17%), +2/−5/≈1
 - `regime_chop` (soft_rule): WR **25%** (lift -21%), +2/−6/≈2
-- `atr_pct_low` (indicator): WR **22%** (lift -24%), +2/−7/≈2
-- `rsi_low` (indicator): WR **22%** (lift -24%), +2/−7/≈2
-- `normalized_imbalance_high` (indicator): WR **22%** (lift -24%), +2/−7/≈2
+- `atr_pct_low` (indicator): WR **22%** (lift -23%), +2/−7/≈2
+- `rsi_low` (indicator): WR **22%** (lift -23%), +2/−7/≈2
+- `normalized_imbalance_high` (indicator): WR **22%** (lift -23%), +2/−7/≈2
 - `local_hour_low` (indicator): WR **25%** (lift -21%), +2/−6/≈2
 - `volume_24h_usdt_high` (indicator): WR **25%** (lift -21%), +2/−6/≈3
 
