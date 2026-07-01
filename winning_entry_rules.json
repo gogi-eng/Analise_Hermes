@@ -1,13 +1,13 @@
 {
   "hours": 336.0,
-  "tp_winners": 799,
-  "tp_skipped_virtual": 676,
+  "tp_winners": 798,
+  "tp_skipped_virtual": 675,
   "tp_opened_real": 123,
-  "sl_losers": 680,
+  "sl_losers": 674,
   "outcome_counts": {
-    "profit": 799,
-    "loss": 832,
-    "neutral": 2336
+    "profit": 798,
+    "loss": 826,
+    "neutral": 2302
   },
   "rules": [
     {
@@ -120,19 +120,19 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.9191,
+    "confidence": 0.9192,
     "atr_pct": 0.6611,
     "adx": 31.5868,
     "rsi": 55.1369,
     "normalized_imbalance": -0.7652,
     "spread_pct": 0.0016,
-    "rr_at_entry": 2.1755,
+    "rr_at_entry": 2.1794,
     "soft_score": 100.0,
     "local_hour": 13.0,
     "volume_24h_usdt": 494724360.64
   },
   "top_skip_reasons_on_tp": {
-    "supervisor": 433,
+    "supervisor": 432,
     "на бирже уже открыта позиция btcusdt — н": 36,
     "на бирже уже открыта позиция solusdt — н": 29,
     "на бирже уже открыта позиция ethusdt — н": 23,
@@ -147,9 +147,9 @@
       "filter_kind": "soft_rule",
       "n_profit": 5,
       "n_loss": 6,
-      "n_neutral": 2,
+      "n_neutral": 1,
       "win_rate_pct": 45.5,
-      "avg_pnl_pct": 1.2647,
+      "avg_pnl_pct": 1.3708,
       "baseline_win_rate_pct": 44.7,
       "lift_pct": 0.7
     },
@@ -158,9 +158,9 @@
       "filter_kind": "soft_rule",
       "n_profit": 4,
       "n_loss": 5,
-      "n_neutral": 2,
+      "n_neutral": 1,
       "win_rate_pct": 44.4,
-      "avg_pnl_pct": 1.5154,
+      "avg_pnl_pct": 1.6677,
       "baseline_win_rate_pct": 44.7,
       "lift_pct": -0.3
     },
@@ -169,9 +169,9 @@
       "filter_kind": "soft_rule",
       "n_profit": 7,
       "n_loss": 11,
-      "n_neutral": 4,
+      "n_neutral": 3,
       "win_rate_pct": 38.9,
-      "avg_pnl_pct": -11.2233,
+      "avg_pnl_pct": -11.7573,
       "baseline_win_rate_pct": 44.7,
       "lift_pct": -5.8
     },
@@ -180,9 +180,9 @@
       "filter_kind": "soft_rule",
       "n_profit": 7,
       "n_loss": 11,
-      "n_neutral": 4,
+      "n_neutral": 3,
       "win_rate_pct": 38.9,
-      "avg_pnl_pct": -11.2233,
+      "avg_pnl_pct": -11.7573,
       "baseline_win_rate_pct": 44.7,
       "lift_pct": -5.8
     },
@@ -191,9 +191,9 @@
       "filter_kind": "soft_rule",
       "n_profit": 6,
       "n_loss": 10,
-      "n_neutral": 4,
+      "n_neutral": 3,
       "win_rate_pct": 37.5,
-      "avg_pnl_pct": 0.5785,
+      "avg_pnl_pct": 0.6094,
       "baseline_win_rate_pct": 44.7,
       "lift_pct": -7.2
     },
@@ -220,13 +220,24 @@
       "lift_pct": -16.2
     },
     {
+      "filter_id": "normalized_imbalance_high",
+      "filter_kind": "indicator",
+      "n_profit": 2,
+      "n_loss": 7,
+      "n_neutral": 2,
+      "win_rate_pct": 22.2,
+      "avg_pnl_pct": -23.9954,
+      "baseline_win_rate_pct": 44.7,
+      "lift_pct": -22.5
+    },
+    {
       "filter_id": "atr_pct_low",
       "filter_kind": "indicator",
       "n_profit": 2,
       "n_loss": 6,
-      "n_neutral": 3,
+      "n_neutral": 2,
       "win_rate_pct": 25.0,
-      "avg_pnl_pct": -0.109,
+      "avg_pnl_pct": -0.1191,
       "baseline_win_rate_pct": 44.7,
       "lift_pct": -19.7
     },
@@ -235,20 +246,20 @@
       "filter_kind": "indicator",
       "n_profit": 2,
       "n_loss": 6,
-      "n_neutral": 3,
+      "n_neutral": 2,
       "win_rate_pct": 25.0,
-      "avg_pnl_pct": -0.7812,
+      "avg_pnl_pct": -0.8585,
       "baseline_win_rate_pct": 44.7,
       "lift_pct": -19.7
     },
     {
-      "filter_id": "normalized_imbalance_high",
+      "filter_id": "volume_24h_usdt_high",
       "filter_kind": "indicator",
       "n_profit": 2,
       "n_loss": 6,
       "n_neutral": 3,
       "win_rate_pct": 25.0,
-      "avg_pnl_pct": -0.4629,
+      "avg_pnl_pct": -0.0307,
       "baseline_win_rate_pct": 44.7,
       "lift_pct": -19.7
     },
@@ -257,53 +268,53 @@
       "filter_kind": "indicator",
       "n_profit": 2,
       "n_loss": 5,
-      "n_neutral": 3,
+      "n_neutral": 2,
       "win_rate_pct": 28.6,
-      "avg_pnl_pct": -0.792,
+      "avg_pnl_pct": -0.8791,
       "baseline_win_rate_pct": 44.7,
       "lift_pct": -16.2
     },
     {
-      "filter_id": "volume_24h_usdt_high",
+      "filter_id": "normalized_imbalance_low",
       "filter_kind": "indicator",
-      "n_profit": 2,
-      "n_loss": 5,
-      "n_neutral": 4,
-      "win_rate_pct": 28.6,
-      "avg_pnl_pct": -0.0106,
+      "n_profit": 5,
+      "n_loss": 4,
+      "n_neutral": 1,
+      "win_rate_pct": 55.6,
+      "avg_pnl_pct": 1.7046,
       "baseline_win_rate_pct": 44.7,
-      "lift_pct": -16.2
+      "lift_pct": 10.8
     },
     {
       "filter_id": "adx_low",
       "filter_kind": "indicator",
       "n_profit": 3,
-      "n_loss": 6,
+      "n_loss": 5,
       "n_neutral": 2,
-      "win_rate_pct": 33.3,
-      "avg_pnl_pct": -23.9619,
+      "win_rate_pct": 37.5,
+      "avg_pnl_pct": -26.358,
       "baseline_win_rate_pct": 44.7,
-      "lift_pct": -11.4
-    },
-    {
-      "filter_id": "soft_score_low",
-      "filter_kind": "indicator",
-      "n_profit": 3,
-      "n_loss": 6,
-      "n_neutral": 2,
-      "win_rate_pct": 33.3,
-      "avg_pnl_pct": -23.9487,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -11.4
+      "lift_pct": -7.2
     },
     {
       "filter_id": "spread_pct_low",
       "filter_kind": "indicator",
       "n_profit": 3,
       "n_loss": 5,
-      "n_neutral": 3,
+      "n_neutral": 2,
       "win_rate_pct": 37.5,
-      "avg_pnl_pct": -0.0003,
+      "avg_pnl_pct": 0.0005,
+      "baseline_win_rate_pct": 44.7,
+      "lift_pct": -7.2
+    },
+    {
+      "filter_id": "soft_score_low",
+      "filter_kind": "indicator",
+      "n_profit": 3,
+      "n_loss": 5,
+      "n_neutral": 2,
+      "win_rate_pct": 37.5,
+      "avg_pnl_pct": -26.3352,
       "baseline_win_rate_pct": 44.7,
       "lift_pct": -7.2
     },
@@ -330,15 +341,26 @@
       "lift_pct": 5.3
     },
     {
-      "filter_id": "normalized_imbalance_low",
+      "filter_id": "volume_24h_usdt_low",
       "filter_kind": "indicator",
       "n_profit": 5,
       "n_loss": 5,
-      "n_neutral": 1,
+      "n_neutral": 0,
       "win_rate_pct": 50.0,
-      "avg_pnl_pct": -21.9836,
+      "avg_pnl_pct": -24.6566,
       "baseline_win_rate_pct": 44.7,
       "lift_pct": 5.3
+    },
+    {
+      "filter_id": "adx_high",
+      "filter_kind": "indicator",
+      "n_profit": 4,
+      "n_loss": 6,
+      "n_neutral": 1,
+      "win_rate_pct": 40.0,
+      "avg_pnl_pct": 1.516,
+      "baseline_win_rate_pct": 44.7,
+      "lift_pct": -4.7
     },
     {
       "filter_id": "spread_pct_high",
@@ -352,6 +374,17 @@
       "lift_pct": -4.7
     },
     {
+      "filter_id": "soft_score_high",
+      "filter_kind": "indicator",
+      "n_profit": 4,
+      "n_loss": 6,
+      "n_neutral": 1,
+      "win_rate_pct": 40.0,
+      "avg_pnl_pct": 1.4953,
+      "baseline_win_rate_pct": 44.7,
+      "lift_pct": -4.7
+    },
+    {
       "filter_id": "local_hour_high",
       "filter_kind": "indicator",
       "n_profit": 5,
@@ -361,39 +394,6 @@
       "avg_pnl_pct": -19.916,
       "baseline_win_rate_pct": 44.7,
       "lift_pct": 0.7
-    },
-    {
-      "filter_id": "volume_24h_usdt_low",
-      "filter_kind": "indicator",
-      "n_profit": 5,
-      "n_loss": 6,
-      "n_neutral": 0,
-      "win_rate_pct": 45.5,
-      "avg_pnl_pct": -22.4359,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": 0.7
-    },
-    {
-      "filter_id": "adx_high",
-      "filter_kind": "indicator",
-      "n_profit": 4,
-      "n_loss": 5,
-      "n_neutral": 2,
-      "win_rate_pct": 44.4,
-      "avg_pnl_pct": 1.5154,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -0.3
-    },
-    {
-      "filter_id": "soft_score_high",
-      "filter_kind": "indicator",
-      "n_profit": 4,
-      "n_loss": 5,
-      "n_neutral": 2,
-      "win_rate_pct": 44.4,
-      "avg_pnl_pct": 1.5022,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -0.3
     }
   ],
   "weight_recommendations": [
@@ -402,8 +402,8 @@
       "action": "consider_remove",
       "suggested_weight_mult": 0.0,
       "confidence": "high",
-      "reason_ru": "Фильтр «на бирже уже открыта позиция btcusdt — н» отсек 299 сигналов; 67% дошли бы до TP — возможно слишком жёстко.",
-      "n_samples": 299
+      "reason_ru": "Фильтр «на бирже уже открыта позиция btcusdt — н» отсек 288 сигналов; 67% дошли бы до TP — возможно слишком жёстко.",
+      "n_samples": 288
     },
     {
       "filter_id": "skip:на бирже уже открыта позиция zecusdt — н",
@@ -651,13 +651,13 @@
     },
     {
       "skip_bucket": "на бирже уже открыта позиция btcusdt — н",
-      "n_total": 299,
+      "n_total": 288,
       "n_virtual_profit": 36,
       "n_virtual_loss": 18,
-      "n_virtual_neutral": 245,
+      "n_virtual_neutral": 234,
       "virtual_tp_rate_pct": 66.7,
       "recommendation": "consider_relax",
-      "reason_ru": "Фильтр «на бирже уже открыта позиция btcusdt — н» отсек 299 сигналов; 67% дошли бы до TP — возможно слишком жёстко."
+      "reason_ru": "Фильтр «на бирже уже открыта позиция btcusdt — н» отсек 288 сигналов; 67% дошли бы до TP — возможно слишком жёстко."
     },
     {
       "skip_bucket": "на бирже уже открыта позиция magmausdt —",
@@ -721,11 +721,11 @@
     },
     {
       "skip_bucket": "supervisor",
-      "n_total": 1919,
-      "n_virtual_profit": 433,
-      "n_virtual_loss": 499,
-      "n_virtual_neutral": 987,
-      "virtual_tp_rate_pct": 46.5,
+      "n_total": 1890,
+      "n_virtual_profit": 432,
+      "n_virtual_loss": 493,
+      "n_virtual_neutral": 965,
+      "virtual_tp_rate_pct": 46.7,
       "recommendation": "review",
       "reason_ru": "Смешанный эффект фильтра «supervisor» — нужно больше данных."
     },
@@ -1041,5 +1041,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-07-01T01:14:34.082732+00:00"
+  "generated_at": "2026-07-01T01:30:36.748564+00:00"
 }
