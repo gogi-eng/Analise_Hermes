@@ -1,12 +1,12 @@
 {
   "hours": 336.0,
-  "tp_winners": 668,
-  "tp_skipped_virtual": 538,
+  "tp_winners": 648,
+  "tp_skipped_virtual": 518,
   "tp_opened_real": 130,
-  "sl_losers": 729,
+  "sl_losers": 709,
   "outcome_counts": {
-    "profit": 668,
-    "loss": 890,
+    "profit": 648,
+    "loss": 871,
     "neutral": 2433
   },
   "rules": [
@@ -120,19 +120,19 @@
     }
   ],
   "winner_feature_medians": {
-    "confidence": 0.9122,
+    "confidence": 0.9106,
     "atr_pct": 0.7092,
     "adx": 26.2167,
     "rsi": 56.3961,
     "normalized_imbalance": -0.75,
     "spread_pct": 0.0016,
-    "rr_at_entry": 2.2285,
+    "rr_at_entry": 2.273,
     "soft_score": 90.0,
     "local_hour": 11.5,
     "volume_24h_usdt": 361696344.76
   },
   "top_skip_reasons_on_tp": {
-    "supervisor": 308,
+    "supervisor": 288,
     "на бирже уже открыта позиция solusdt — н": 29,
     "на бирже уже открыта позиция ethusdt — н": 23,
     "на бирже уже открыта позиция btcusdt — н": 19,
@@ -150,8 +150,8 @@
       "n_neutral": 1,
       "win_rate_pct": 45.5,
       "avg_pnl_pct": 1.3708,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": 0.8
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": 0.9
     },
     {
       "filter_id": "adx_strong",
@@ -161,8 +161,8 @@
       "n_neutral": 1,
       "win_rate_pct": 44.4,
       "avg_pnl_pct": 1.6677,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -0.2
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": -0.1
     },
     {
       "filter_id": "atr_sweet",
@@ -172,8 +172,8 @@
       "n_neutral": 4,
       "win_rate_pct": 38.1,
       "avg_pnl_pct": -9.858,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -6.6
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": -6.4
     },
     {
       "filter_id": "volume_2x",
@@ -183,8 +183,8 @@
       "n_neutral": 4,
       "win_rate_pct": 38.1,
       "avg_pnl_pct": -9.858,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -6.6
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": -6.4
     },
     {
       "filter_id": "adx_ok",
@@ -194,8 +194,8 @@
       "n_neutral": 4,
       "win_rate_pct": 33.3,
       "avg_pnl_pct": 0.5225,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -11.3
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": -11.2
     },
     {
       "filter_id": "regime_chop",
@@ -205,8 +205,8 @@
       "n_neutral": 3,
       "win_rate_pct": 30.0,
       "avg_pnl_pct": -20.2229,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -14.7
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": -14.5
     },
     {
       "filter_id": "spread_wide",
@@ -216,8 +216,8 @@
       "n_neutral": 1,
       "win_rate_pct": 28.6,
       "avg_pnl_pct": -31.9014,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -16.1
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": -15.9
     },
     {
       "filter_id": "imb_strong",
@@ -227,8 +227,8 @@
       "n_neutral": 0,
       "win_rate_pct": 25.0,
       "avg_pnl_pct": 1.0131,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -19.7
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": -19.5
     },
     {
       "filter_id": "rsi_low",
@@ -238,8 +238,8 @@
       "n_neutral": 2,
       "win_rate_pct": 20.0,
       "avg_pnl_pct": -22.2945,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -24.7
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": -24.5
     },
     {
       "filter_id": "atr_pct_low",
@@ -249,8 +249,8 @@
       "n_neutral": 3,
       "win_rate_pct": 22.2,
       "avg_pnl_pct": -0.1006,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -22.5
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": -22.3
     },
     {
       "filter_id": "volume_24h_usdt_high",
@@ -260,8 +260,8 @@
       "n_neutral": 4,
       "win_rate_pct": 22.2,
       "avg_pnl_pct": -0.0149,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -22.5
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": -22.3
     },
     {
       "filter_id": "normalized_imbalance_high",
@@ -271,8 +271,8 @@
       "n_neutral": 2,
       "win_rate_pct": 27.3,
       "avg_pnl_pct": -0.3549,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -17.4
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": -17.2
     },
     {
       "filter_id": "adx_low",
@@ -282,8 +282,8 @@
       "n_neutral": 3,
       "win_rate_pct": 33.3,
       "avg_pnl_pct": -21.9081,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -11.3
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": -11.2
     },
     {
       "filter_id": "spread_pct_low",
@@ -293,8 +293,8 @@
       "n_neutral": 3,
       "win_rate_pct": 33.3,
       "avg_pnl_pct": -0.001,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -11.3
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": -11.2
     },
     {
       "filter_id": "rsi_high",
@@ -304,8 +304,8 @@
       "n_neutral": 2,
       "win_rate_pct": 54.5,
       "avg_pnl_pct": 1.622,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": 9.9
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": 10.0
     },
     {
       "filter_id": "soft_score_high",
@@ -315,8 +315,8 @@
       "n_neutral": 1,
       "win_rate_pct": 35.7,
       "avg_pnl_pct": 1.077,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -9.0
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": -8.8
     },
     {
       "filter_id": "local_hour_high",
@@ -326,8 +326,8 @@
       "n_neutral": 1,
       "win_rate_pct": 35.7,
       "avg_pnl_pct": -15.9569,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -9.0
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": -8.8
     },
     {
       "filter_id": "atr_pct_high",
@@ -337,8 +337,8 @@
       "n_neutral": 1,
       "win_rate_pct": 50.0,
       "avg_pnl_pct": -18.8648,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": 5.3
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": 5.5
     },
     {
       "filter_id": "normalized_imbalance_low",
@@ -348,8 +348,8 @@
       "n_neutral": 2,
       "win_rate_pct": 50.0,
       "avg_pnl_pct": -20.153,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": 5.3
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": 5.5
     },
     {
       "filter_id": "volume_24h_usdt_low",
@@ -359,8 +359,8 @@
       "n_neutral": 0,
       "win_rate_pct": 50.0,
       "avg_pnl_pct": -20.5213,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": 5.3
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": 5.5
     },
     {
       "filter_id": "adx_high",
@@ -370,8 +370,8 @@
       "n_neutral": 1,
       "win_rate_pct": 41.7,
       "avg_pnl_pct": 1.2652,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -3.0
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": -2.9
     },
     {
       "filter_id": "spread_pct_high",
@@ -381,8 +381,8 @@
       "n_neutral": 1,
       "win_rate_pct": 41.7,
       "avg_pnl_pct": -18.9567,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -3.0
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": -2.9
     },
     {
       "filter_id": "soft_score_low",
@@ -392,8 +392,8 @@
       "n_neutral": 3,
       "win_rate_pct": 42.9,
       "avg_pnl_pct": -26.2604,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -1.8
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": -1.7
     },
     {
       "filter_id": "local_hour_low",
@@ -403,8 +403,8 @@
       "n_neutral": 3,
       "win_rate_pct": 42.9,
       "avg_pnl_pct": -0.7095,
-      "baseline_win_rate_pct": 44.7,
-      "lift_pct": -1.8
+      "baseline_win_rate_pct": 44.5,
+      "lift_pct": -1.7
     }
   ],
   "weight_recommendations": [
@@ -741,16 +741,6 @@
       "reason_ru": "Фильтр «дневной лимит убытка $40.47 (лимит $15).» спасает от SL в 60% случаев — оставить."
     },
     {
-      "skip_bucket": "supervisor",
-      "n_total": 1821,
-      "n_virtual_profit": 308,
-      "n_virtual_loss": 511,
-      "n_virtual_neutral": 1002,
-      "virtual_tp_rate_pct": 37.6,
-      "recommendation": "keep_strict",
-      "reason_ru": "Фильтр «supervisor» спасает от SL в 62% случаев — оставить."
-    },
-    {
       "skip_bucket": "zone_entry",
       "n_total": 23,
       "n_virtual_profit": 6,
@@ -759,6 +749,16 @@
       "virtual_tp_rate_pct": 37.5,
       "recommendation": "keep_strict",
       "reason_ru": "Фильтр «zone_entry» спасает от SL в 62% случаев — оставить."
+    },
+    {
+      "skip_bucket": "supervisor",
+      "n_total": 1781,
+      "n_virtual_profit": 288,
+      "n_virtual_loss": 491,
+      "n_virtual_neutral": 1002,
+      "virtual_tp_rate_pct": 37.0,
+      "recommendation": "keep_strict",
+      "reason_ru": "Фильтр «supervisor» спасает от SL в 63% случаев — оставить."
     },
     {
       "skip_bucket": "лимит сделок на сегодня. сброс через 3ч ",
@@ -1092,5 +1092,5 @@
     }
   ],
   "suggested_rule_weights": {},
-  "generated_at": "2026-07-02T03:34:13.851199+00:00"
+  "generated_at": "2026-07-02T03:44:16.542675+00:00"
 }
