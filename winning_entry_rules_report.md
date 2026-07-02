@@ -1,11 +1,11 @@
 # Анализ входов: TP, убытки, безубыток
 
-Период: **336 ч** | Сгенерировано: 2026-07-02T01:37:36.395018+00:00
+Период: **336 ч** | Сгенерировано: 2026-07-02T01:41:39.149284+00:00
 
 ## Сводка исходов
 - **Профит:** 665
 - **Убыток:** 876
-- **Безубыток / нейтраль:** 2409
+- **Безубыток / нейтраль:** 2410
 - TP (вирт + биржа): **665** (вирт 535, биржа 130)
 
 ## Рекомендации по весам и фильтрам
@@ -35,16 +35,16 @@
 ## Индикаторы и soft-rules (WR при срабатывании)
 - `regime_trend` (soft_rule): WR **46%** (lift +1%), +5/−6/≈1
 - `adx_strong` (soft_rule): WR **44%** (lift -0%), +4/−5/≈1
-- `atr_sweet` (soft_rule): WR **38%** (lift -7%), +8/−13/≈3
-- `volume_2x` (soft_rule): WR **38%** (lift -7%), +8/−13/≈3
-- `adx_ok` (soft_rule): WR **33%** (lift -11%), +6/−12/≈3
-- `regime_chop` (soft_rule): WR **30%** (lift -15%), +3/−7/≈2
+- `atr_sweet` (soft_rule): WR **38%** (lift -7%), +8/−13/≈4
+- `volume_2x` (soft_rule): WR **38%** (lift -7%), +8/−13/≈4
+- `adx_ok` (soft_rule): WR **33%** (lift -11%), +6/−12/≈4
+- `regime_chop` (soft_rule): WR **30%** (lift -15%), +3/−7/≈3
 - `spread_wide` (soft_rule): WR **29%** (lift -16%), +2/−5/≈1
 - `imb_strong` (soft_rule): WR **25%** (lift -20%), +1/−3/≈0
-- `atr_pct_low` (indicator): WR **20%** (lift -25%), +2/−8/≈2
 - `rsi_low` (indicator): WR **20%** (lift -25%), +2/−8/≈2
-- `volume_24h_usdt_high` (indicator): WR **22%** (lift -22%), +2/−7/≈3
-- `adx_low` (indicator): WR **30%** (lift -15%), +3/−7/≈2
+- `atr_pct_low` (indicator): WR **22%** (lift -22%), +2/−7/≈3
+- `volume_24h_usdt_high` (indicator): WR **22%** (lift -22%), +2/−7/≈4
+- `normalized_imbalance_high` (indicator): WR **27%** (lift -17%), +3/−8/≈2
 
 ## Пропущенные, но дошли бы до TP
 - **supervisor**: 307
